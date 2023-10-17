@@ -26,6 +26,14 @@ body{
 @-ms-viewport {width: device-width;}
 @viewport {width: device-width;}
 /*--------------Typography--------------------------------------*/
+.Wish-btn{
+	border: none;
+	background-color:#205DA5;
+	padding: 8px;
+	cursor: pointer;
+	border-radius: 5px;
+	color: white;
+}
 blockquote {
 	float:left;
 	padding: 10px 20px;
