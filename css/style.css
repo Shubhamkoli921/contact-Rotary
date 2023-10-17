@@ -28,7 +28,7 @@ body{
 /*--------------Typography--------------------------------------*/
 .Wish-btn{
 	border: none;
-	background-color:#205DA5;
+	background-color:rgb(64, 221, 64);
 	padding: 8px;
 	cursor: pointer;
 	border-radius: 5px;
