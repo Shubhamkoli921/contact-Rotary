@@ -1088,12 +1088,18 @@
                             <div id="tab-1" class="tab-content first-tab">
                                 <div class="custom-form">
                                     <form method="post" name="registerform">
-                                        <label>Phone No or Email Address<span>*</span> </label>
-                                        <input name="email" type="text" onClick="this.select()" value="">
-                                        <label>Password <span>*</span> </label>
-                                        <input name="password" type="password" onClick="this.select()" value="">
-                                        <button type="submit" class="btn float-btn color2-bg"> <a style="color: white;" href="/contact-Rotary/otp.html"> Log In</a> </button>
-                                        <div class="clearfix"></div>
+                                        <div class="loginWithOTP">
+                                            <label>Phone No or Email Address<span>*</span> </label>
+                                            <input name="email" type="text" onClick="this.select()" value="">
+                                            <label>Password <span>*</span> </label>
+                                            <input name="password" type="password" onClick="this.select()" value="">
+                                            <button type="submit" class="btn float-btn color2-bg"> <a style="color: white;" href="/contact-Rotary/otp.html"> Verify</a> </button>
+                                        </div>
+                                        <!-- <div class="clearfix"></div> -->
+                                        <div class="otpbutton">
+                                            <label style="margin-top: 10px;">Enter OTP <span>*</span> </label>
+                                            <input name="password" type="password" onClick="this.select()" value="">
+                                        </div>
                                         <div class="filter-tags">
                                             <input id="check-a3" type="checkbox" name="check">
                                             <label for="check-a3">Remember me</label>

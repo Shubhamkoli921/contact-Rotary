@@ -1313,3 +1313,11 @@ $(document).ready(function () {
     initTowhub();
     initparallax();
 });
+
+//otpverifyscript
+
+$('loginWithOTP').on('clcik',function(){
+    ev.preventDefault();    
+    $('otpbutton').removeClass('hide');
+    $('loginWithOTP').addClass('hide');
+  });
