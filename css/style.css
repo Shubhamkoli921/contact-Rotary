@@ -22,6 +22,9 @@ body{
 	color:#000;
 	font-family: 'Roboto';
 }
+#showDiv{
+	display: none;
+}
 @-o-viewport {width: device-width;}
 @-ms-viewport {width: device-width;}
 @viewport {width: device-width;}

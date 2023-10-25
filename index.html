@@ -566,7 +566,7 @@
                                                 </div>
 
                                             </div>
-                                            
+
                                         </div>
                                     </article>
                                 </div>
@@ -611,7 +611,7 @@
                                                 </div>
                                             </div>
 
-                                            
+
                                         </div>
                                     </article>
                                 </div>
@@ -656,7 +656,7 @@
                                                 </div>
                                             </div>
 
-                                           
+
                                         </div>
                                     </article>
                                 </div>
@@ -701,7 +701,7 @@
                                                 </div>
                                             </div>
 
-                                            
+
                                         </div>
                                     </article>
                                 </div>
@@ -745,7 +745,7 @@
                                                 </div>
                                             </div>
 
-                                           
+
                                         </div>
                                     </article>
                                 </div>
@@ -789,7 +789,7 @@
                                                 </div>
                                             </div>
 
-                                            
+
                                         </div>
                                     </article>
                                 </div>
@@ -833,7 +833,7 @@
                                                 </div>
                                             </div>
 
-                                           
+
                                         </div>
                                     </article>
                                 </div>
@@ -1087,24 +1087,26 @@
                             <!--tab -->
                             <div id="tab-1" class="tab-content first-tab">
                                 <div class="custom-form">
-                                    <form method="post" name="registerform">
-                                        <div class="loginWithOTP">
-                                            <label>Phone No or Email Address<span>*</span> </label>
-                                            <input name="email" type="text" onClick="this.select()" value="">
-                                            <label>Password <span>*</span> </label>
-                                            <input name="password" type="password" onClick="this.select()" value="">
-                                            <button type="submit" class="btn float-btn color2-bg"> <a style="color: white;" href="/contact-Rotary/otp.html"> Verify</a> </button>
+                                    <!-- <form method="post" name="registerform"> -->
+                                    <div class="loginWithOTP">
+                                        <label>Phone No or Email Address<span>*</span> </label>
+                                        <input name="email" type="text" onClick="this.select()" value="">
+                                        <label>Password <span>*</span> </label>
+                                        <input name="password" type="password" onClick="this.select()" value="">
+                                        <button class="btn float-btn color2-bg" id="enterbutton"> Enter </button>
+                                        <div id="showDiv">
+                                            <input type="text" id="myInput" placeholder="Enter OTP"
+                                                style="margin-top: 3rem;">
+                                            <button class="btn float-btn color2-bg" id="myButton">Verify</button>
                                         </div>
-                                        <!-- <div class="clearfix"></div> -->
-                                        <div class="otpbutton">
-                                            <label style="margin-top: 10px;">Enter OTP <span>*</span> </label>
-                                            <input name="password" type="password" onClick="this.select()" value="">
-                                        </div>
-                                        <div class="filter-tags">
-                                            <input id="check-a3" type="checkbox" name="check">
-                                            <label for="check-a3">Remember me</label>
-                                        </div>
-                                    </form>
+                                    </div>
+                                    <!-- <div class="clearfix"></div> -->
+
+                                    <div class="filter-tags">
+                                        <input id="check-a3" type="checkbox" name="check">
+                                        <label for="check-a3">Remember me</label>
+                                    </div>
+                                    <!-- </form> -->
                                     <div class="lost_password">
                                         <a href="#">Lost Your Password?</a>
                                     </div>
@@ -1184,6 +1186,18 @@
         src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=places&callback=initAutocomplete">
         </script>
     <script src="js/map-single.js"></script>
+    <script>
+        var enterkey = document.getElementById('enterbutton');
+        var showinputDiv = document.getElementById('showDiv');
+        enterkey.addEventListener('click', function () {
+            if (showinputDiv.style.display === "none") {
+                showinputDiv.style.display = "block"
+            }
+            else {
+                showinputDiv.style.display = "none"
+            }
+        })
+    </script>
 </body>
 
 </html>
