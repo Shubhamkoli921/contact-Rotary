@@ -1337,3 +1337,13 @@ $(document).ready(function () {
 //otp verification script 
 
 
+var enterkey = document.getElementById('enterbutton');
+        var showinputDiv = document.getElementById('showDiv');
+        enterkey.addEventListener('click', function () {
+            if (showinputDiv.style.display === "none") {
+                showinputDiv.style.display = "block"
+            }
+            else {
+                showinputDiv.style.display = "none"
+            }
+        })

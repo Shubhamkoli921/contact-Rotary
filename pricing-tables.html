@@ -709,24 +709,32 @@
                             <li class="current"><a href="#tab-1"><i class="fal fa-sign-in-alt"></i> Login</a></li>
                             <li><a href="#tab-2"><i class="fal fa-user-plus"></i> Register</a></li>
                         </ul>
-                        <!--tabs -->                       
+                        <!--tabs -->
                         <div class="tabs-container">
                             <div class="tab">
                                 <!--tab -->
                                 <div id="tab-1" class="tab-content first-tab">
                                     <div class="custom-form">
-                                        <form method="post"  name="registerform">
-                                            <label>Username or Email Address <span>*</span> </label>
-                                            <input name="email" type="text"   onClick="this.select()" value="">
-                                            <label >Password <span>*</span> </label>
-                                            <input name="password" type="password"   onClick="this.select()" value="" >
-                                            <button type="submit"  class="btn float-btn color2-bg"> Log In <i class="fas fa-caret-right"></i></button>
-                                            <div class="clearfix"></div>
-                                            <div class="filter-tags">
-                                                <input id="check-a3" type="checkbox" name="check">
-                                                <label for="check-a3">Remember me</label>
+                                        <!-- <form method="post" name="registerform"> -->
+                                        <div class="loginWithOTP">
+                                            <label>Phone No or Email Address<span>*</span> </label>
+                                            <input name="email" type="text" onClick="this.select()" value="">
+                                            <label>Password <span>*</span> </label>
+                                            <input name="password" type="password" onClick="this.select()" value="">
+                                            <button class="btn float-btn color2-bg" id="enterbutton"> Enter </button>
+                                            <div id="showDiv">
+                                                <input type="text" id="myInput" placeholder="Enter otp to Verify"
+                                                    style="margin-top: 3rem;">
+                                                <button class="btn float-btn color2-bg" id="myButton">Verify</button>
                                             </div>
-                                        </form>
+                                        </div>
+                                        <!-- <div class="clearfix"></div> -->
+    
+                                        <div class="filter-tags">
+                                            <input id="check-a3" type="checkbox" name="check">
+                                            <label for="check-a3">Remember me</label>
+                                        </div>
+                                        <!-- </form> -->
                                         <div class="lost_password">
                                             <a href="#">Lost Your Password?</a>
                                         </div>
@@ -737,29 +745,58 @@
                                 <div class="tab">
                                     <div id="tab-2" class="tab-content">
                                         <div class="custom-form">
-                                            <form method="post"   name="registerform" class="main-register-form" id="main-register-form2">
-                                                <label >Full Name <span>*</span> </label>
-                                                <input name="name" type="text"   onClick="this.select()" value="">
+                                            <form method="post" name="registerform" class="main-register-form"
+                                                id="main-register-form2">
+                                                <label>Full Name <span>*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
                                                 <label>Email Address <span>*</span></label>
-                                                <input name="email" type="text"  onClick="this.select()" value="">
-                                                <label >Password <span>*</span></label>
-                                                <input name="password" type="password"   onClick="this.select()" value="" >
+                                                <input name="email" type="text" onClick="this.select()" value="">
+                                                <label>Company Name<span>*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                                <label>Designation <span>*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                                <label>Club Name<span>*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                                <label>Spouse Name <span>*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                                <label>DOB<span>*</span> </label>
+                                                <input name="date" type="text" onClick="this.select()" value="">
+                                                <label>Marrage Anniversary Date<span>*</span> </label>
+                                                <input name="date" type="text" onClick="this.select()" value="">
+                                                <label>Address <span>*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                                <label>City <span>*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                                <label>Pincode <span>*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                                <label>Phone No <span>*</span> </label>
+                                                <input name="tel" type="text" onClick="this.select()" value="">
+    
                                                 <div class="filter-tags ft-list">
                                                     <input id="check-a2" type="checkbox" name="check">
-                                                    <label for="check-a2">I agree to the <a href="#">Privacy Policy</a></label>
+                                                    <label for="check-a2">I agree to the <a href="#">Privacy
+                                                            Policy</a></label>
                                                 </div>
                                                 <div class="clearfix"></div>
                                                 <div class="filter-tags ft-list">
                                                     <input id="check-a" type="checkbox" name="check">
-                                                    <label for="check-a">I agree to the <a href="#">Terms and Conditions</a></label>
+                                                    <label for="check-a">I agree to the <a href="#">Terms and
+                                                            Conditions</a></label>
                                                 </div>
                                                 <div class="clearfix"></div>
-                                                <button type="submit"     class="btn float-btn color2-bg"> Register  <i class="fas fa-caret-right"></i></button>
+                                                <button type="submit" class="btn float-btn color2-bg"> Register <i
+                                                        class="fas fa-caret-right"></i></button>
                                             </form>
                                         </div>
                                     </div>
                                 </div>
                                 <!--tab end -->
+                            </div>
+                            <!--tabs end -->
+    
+                            <div class="wave-bg">
+                                <div class='wave -one'></div>
+                                <div class='wave -two'></div>
                             </div>
                         </div>
                     </div>
