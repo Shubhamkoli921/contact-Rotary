@@ -21,6 +21,7 @@ body{
 	background: #2e3f6e;
 	color:#000;
 	font-family: 'Roboto';
+	line-height: 1.6;
 }
 #showDiv{
 	display: none;
@@ -9319,4 +9320,109 @@ section.parallax-section {
 .nice-select .list::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background:#ccc;
+}
+
+
+/*local global sectin css*/
+section {
+    display: block;
+}
+.container-fluid{
+
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+
+.row {
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.Local{
+	background: url(/images/map-Img.png)#005db0;
+    background-size: contain;
+    padding: 2rem;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;	
+}
+.Local::before{
+	background:#005db0;
+	position:absolute
+}
+.Local h2, .Global h2{
+	color:#fff; 
+	font-size:5rem;
+	font-weight:300;
+	opacity:0.2
+	
+}
+.Local h3 , .Global h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin: 50px 0 15px;
+}
+.Local p, .Global p {
+    color: #fff;
+    font-size: 18px;
+    /* line-height: 1.8; */
+}
+.Local p.lineP{
+    font-size: 14px
+}
+
+.Local a.KnowMore, .Global a.KnowMore{
+	color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+	vertical-align:middle;
+	transition:0.7s
+}
+.Global a.KnowMore i{
+	vertical-align: sub;
+}
+a.KnowMore:hover{
+	color:#007bff;
+	transition:0.7s
+}
+.Global{
+	background:#0c3b7c;
+	padding:2rem; 
+	background: url(/images/Global-map-Img.png)#0c3b7c;
+    background-size: contain;
+    padding: 4rem;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;	
+} 
+/* NumberBox  */
+
+.NumberBox{
+	margin:40px 0
+}
+.NumberBox h4 span{
+	font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+.NumberBox p{
+	font-size: 18px;
+    color: #fff;
+    font-weight: 500
+}
+
+@media (min-width: 768px)
+{.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;}
 }
