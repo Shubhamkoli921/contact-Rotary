@@ -48,28 +48,28 @@
                             <!--tab -->
                             <div id="tab-1" class="tab-content first-tab">
                                 <div class="custom-form">
-                                    <form method="post" name="registerform">
-                                        <label> Email Address or Phone Number <span>*</span> </label>
+                                    <!-- <form method="post" name="registerform"> -->
+                                    <div class="loginWithOTP">
+                                        <label>Phone No or Email Address<span>*</span> </label>
                                         <input name="email" type="text" onClick="this.select()" value="">
                                         <label>Password <span>*</span> </label>
                                         <input name="password" type="password" onClick="this.select()" value="">
-                                        <button type="submit" class="btn float-btn color2-bg"> Log In <i
-                                                class="fas fa-caret-right"></i></button>
-                                        <div class="clearfix"></div>
-                                        <div class="filter-tags">
-                                            <input id="check-a3" type="checkbox" name="check">
-                                            <label for="check-a3">Remember me</label>
+                                        <button class="btn float-btn color2-bg" id="enterbutton"> Enter </button>
+                                        <div id="showDiv">
+                                            <input type="text" id="myInput" placeholder="Enter otp to Verify"
+                                                style="margin-top: 3rem;">
+                                            <button class="btn float-btn color2-bg" id="myButton">Verify</button>
                                         </div>
-                                    </form>
+                                    </div>
+                                    <!-- <div class="clearfix"></div> -->
+
+                                    <div class="filter-tags">
+                                        <input id="check-a3" type="checkbox" name="check">
+                                        <label for="check-a3">Remember me</label>
+                                    </div>
+                                    <!-- </form> -->
                                     <div class="lost_password">
-                                        <a href="#" class="show-lpt">Lost Your Password?</a>
-                                        <div class="lost-password-tootip">
-                                            <p>Enter your email and we will send you a password</p>
-                                            <input name="email" type="text" onClick="this.select()" value="">
-                                            <button type="submit" class="btn float-btn color2-bg"> Send<i
-                                                    class="fas fa-caret-right"></i></button>
-                                            <div class="close-lpt"><i class="far fa-times"></i></div>
-                                        </div>
+                                        <a href="#">Lost Your Password?</a>
                                     </div>
                                 </div>
                             </div>
@@ -81,19 +81,30 @@
                                         <form method="post" name="registerform" class="main-register-form"
                                             id="main-register-form2">
                                             <label>Full Name <span>*</span> </label>
-                                            <input type='text'
-                                                placeholder='Enter Your Full Name' />
+                                            <input name="name" type="text" onClick="this.select()" value="">
                                             <label>Email Address <span>*</span></label>
                                             <input name="email" type="text" onClick="this.select()" value="">
-                                            <label>Company Name <span>*</span></label>
-                                            <input name="Cname" type="text" onClick="this.select()" value="">
-                                            <label>Occupation <span>*</span></label>
-                                            <input name="Occupation" type="text" onClick="this.select()" value="">
-                                            <label>Birth-Date <span>*</span></label>
-                                            <input name="dob" type="date" onClick="this.select()" value="">
-                                            <label>Mobile No <span>*</span></label>
-                                            <input name="email" type="tel" onClick="this.select()" value="">
-                                            
+                                            <label>Company Name<span>*</span> </label>
+                                            <input name="name" type="text" onClick="this.select()" value="">
+                                            <label>Designation <span>*</span> </label>
+                                            <input name="name" type="text" onClick="this.select()" value="">
+                                            <label>Club Name<span>*</span> </label>
+                                            <input name="name" type="text" onClick="this.select()" value="">
+                                            <label>Spouse Name <span>*</span> </label>
+                                            <input name="name" type="text" onClick="this.select()" value="">
+                                            <label>DOB<span>*</span> </label>
+                                            <input name="date" type="text" onClick="this.select()" value="">
+                                            <label>Marrage Anniversary Date<span>*</span> </label>
+                                            <input name="date" type="text" onClick="this.select()" value="">
+                                            <label>Address <span>*</span> </label>
+                                            <input name="name" type="text" onClick="this.select()" value="">
+                                            <label>City <span>*</span> </label>
+                                            <input name="name" type="text" onClick="this.select()" value="">
+                                            <label>Pincode <span>*</span> </label>
+                                            <input name="name" type="text" onClick="this.select()" value="">
+                                            <label>Phone No <span>*</span> </label>
+                                            <input name="tel" type="text" onClick="this.select()" value="">
+
                                             <div class="filter-tags ft-list">
                                                 <input id="check-a2" type="checkbox" name="check">
                                                 <label for="check-a2">I agree to the <a href="#">Privacy
@@ -115,10 +126,10 @@
                             <!--tab end -->
                         </div>
                         <!--tabs end -->
-                        <div class="log-separator fl-wrap"><span>or</span></div>
-                        <div class="soc-log fl-wrap">
-                            <p>For faster login or register use your social account.</p>
-                            <a href="#" class="facebook-log"> Facebook</a>
+
+                        <div class="wave-bg">
+                            <div class='wave -one'></div>
+                            <div class='wave -two'></div>
                         </div>
                     </div>
                 </div>
@@ -179,5 +190,4 @@
     <script src="js/plugins.js"></script>
     <script src="js/scripts.js"></script>
 </body>
-
 </html>

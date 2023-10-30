@@ -221,7 +221,7 @@ blockquote p {
 	opacity:0.4;
 }
 .op7 {
-	opacity:0.5 !important ;
+	opacity:0.1 !important ;
 }
 .dark-bg {
     background: #464B61;
@@ -5029,7 +5029,7 @@ section.gray-section .section-separator {
 	height:120%;
 }
 .listing-hero-section .slideshow-container .bg , .bg.par-elem {
-	height:110%;
+	height:120%;
 	top:-5%;
 }
 .listing-hero-section .bg-parallax-wrap:before , .d-gr-sec:before{
@@ -6423,7 +6423,7 @@ section.gray-section .section-separator {
 /*-------------Team---------------------------------------*/
 .team-box {
 	float:left;
-	width:33.3%;
+	width:23.3%;
 	position:relative;
 	padding:10px 4px;
 }
@@ -8299,6 +8299,78 @@ section.absolute-wrap_section .section-separator {
 	color:#fff;
 	font-family: 'Raleway', sans-serif;
 }
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-color: #f1f1f1;
+	padding: 20px;
+	font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+	max-width: 1000px;
+	margin: auto;
+  }
+  
+  .main h1 {
+	font-size: 40px;
+	word-break: break-all;
+	color: gray;
+	margin: 10px;
+  }
+  .main h3{
+	color: gray;
+	margin:10px;
+  }
+  .main p{
+	color: gray;
+  }
+  
+  .row {
+	margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+	padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+	float: left;
+	width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Content */
+  .content {
+	background-color: white;
+	padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+	.column {
+	  width: 50%;
+	}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+  }
 .ab_text {
 	padding-left:20px;
 }
