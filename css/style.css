@@ -9329,6 +9329,7 @@ section.parallax-section {
 /*local global sectin css*/
 section {
     display: block;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .container-fluid{
 
