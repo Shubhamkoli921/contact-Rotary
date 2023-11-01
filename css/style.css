@@ -9127,6 +9127,7 @@ section.parallax-section {
 }
 }
 @media only screen and  (max-width: 650px) {
+	
 .header-user-menu:after {
 	left:-54px;
 }
@@ -9349,6 +9350,7 @@ section.parallax-section {
 	display: flex;
 	/* height: 100%; */
 }
+
 .Local{
 	background: url('../images/map-Img.png')#005db0;
     background-size: contain;
@@ -9422,3 +9424,8 @@ a.KnowMore:hover{
 }
 
 
+@media only screen and  (max-width: 650px) {
+	.rowsp{
+		display: block;
+	}
+}
