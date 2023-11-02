@@ -1,0 +1,828 @@
+body{
+	color:#7C7C80
+}
+
+/* .main-Div{
+	background:#012e13;
+	background-color:rgb(11, 30, 68);
+	background:url(../img/home-page-banner.jpg);
+    background-size: cover;
+    height: 550px;
+	background-attachment:fixed; 
+}  */
+.banner-a {
+    position: absolute;
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.IndexBanner{
+    height: 475px !important;
+}
+
+.zIndex{
+	z-index:99999
+}
+ .title {
+    font-size: 5rem;
+    line-height: 1.3;
+	color:#fff
+}
+.content{
+	/* padding-top:20% */
+}
+.bannerImg{
+	padding-top:25%
+}
+.backToProjectList {
+	margin-top:30px
+}
+.backToProjectList a {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    border: #fff solid 1px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+	transition:0.7s
+}
+.backToProjectList a:hover {
+    background: #fff;
+    color: #07b;
+	transition:0.7s
+}
+.Info h2{
+	font-size:2.5rem;
+	line-height:1.3;
+	margin-top:20px
+}
+.line{
+    display: block;
+    background: #000;
+    width: 90%;
+	height: 10px;
+}
+
+.Info .AboutInfo{
+	margin:20% 0 0
+}
+/* OurImpact */
+.OurImpact{
+	background:#faf9f3
+}
+.OurImpact h1{    
+	color: #6C7E91;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 3.6rem;
+}
+
+/* @media(min-width:768px){
+    .our_impact_Row > .col-md-2{
+        flex: 0 0 14.28571428571429%;
+        max-width: 14.28571428571429%;
+    }
+} */
+.our_impact_amt {
+    color: #0C3B7C!important;
+    font-weight: 500;
+}
+
+.InterestingNumberBox{
+	text-align:center;
+	margin-top:15px
+}
+.InterestingNumberBox img{
+	width: 120px;
+	margin:10px auto;
+}
+.InterestingNumberBox h2 .counter-value, .InterestingNumberBox h2 {
+	color: #F25D26;
+    font-size: 24px;
+    margin: 5px 0 5px;
+}
+.InterestingNumberBox p{
+	font-size:18px;
+	color:#333
+}
+
+
+/* Rotarypower section */
+.Rotarypower{
+	background:#E9F2F8
+}
+.Rotarypower h2 {
+    color: #333;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.Rotarypower p {
+    color: #555657;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.Rotarypower a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0C3B7C;
+    margin-top: 30px;
+    display: inline-block;
+}
+.profileDiv{
+	margin-top:30px
+}
+.profileDiv .profileImg {
+	/* float:left; */
+	border-radius:50px;
+	width:65px
+}
+.profileDiv span {
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #333;
+}
+.profileDiv span b { 
+    font-size: 18px;
+	font-weight:500
+}
+
+/* Local & Global Section css */
+.Local{
+	background: url(../img/map-Img.png)#005db0;
+    background-size: contain;
+    padding: 6rem;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;	
+}
+.Local::before{
+	background:#005db0;
+	position:absolute
+}
+.Local h2, .Global h2{
+	color:#fff; 
+	font-size:5rem;
+	font-weight:300;
+	opacity:0.2
+	
+}
+.Local h3 , .Global h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin: 50px 0 15px;
+}
+.Local p, .Global p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+.Local p.lineP{
+    font-size: 14px
+}
+
+.Local a.KnowMore, .Global a.KnowMore{
+	color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+	vertical-align:middle;
+	transition:0.7s
+}
+.Global a.KnowMore i{
+	vertical-align: sub;
+}
+a.KnowMore:hover{
+	color:#007bff;
+	transition:0.7s
+}
+.Global{
+	background:#0c3b7c;
+	padding:5rem; 
+	background: url(../img/Global-map-Img.png)#0c3b7c;
+    background-size: contain;
+    padding: 6rem;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;	
+} 
+/* NumberBox  */
+
+.NumberBox{
+	margin:40px 0
+}
+.NumberBox h4 span{
+	font-size: 22px;
+    color: #fff;
+    font-weight: 500
+}
+.NumberBox p{
+	font-size: 18px;
+    color: #fff;
+    font-weight: 500
+}
+
+/* Acts-of-Kindness css */
+.Acts-of-Kindness{
+	background:#fbfbfb
+}
+.Acts-of-Kindness h1{
+	color: #6C7E91;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 3.6rem;
+}
+
+/* Acts-of-Kindness-Slider  */
+.Acts-of-Kindness-Slider{
+	margin:40px auto
+}
+.Acts-of-Kindness-Slider img{
+	border-radius:6px
+}
+
+.Acts-of-Kindness-Slider .SliderInfo span{
+	font-size:16px;
+	color:#7C7C80
+}
+.Acts-of-Kindness-Slider .SliderInfo span.clubName{
+	border-right:1px solid #666;
+	margin-right:10px;
+	padding-right:10px;
+	display:inline-block
+}
+
+.Acts-of-Kindness-Slider .SliderInfo p{
+	font-size:18px; 
+}
+.Acts-of-Kindness-Slider .SliderInfo h3{ 
+   font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+.Acts-of-Kindness-Slider .SliderInfo a{ 
+	font-size: 18px;
+    color: #0C3B7C;
+    font-weight: 500;
+    margin-top: 20px;
+    display: inline-block;;
+}
+.Acts-of-Kindness-Slider .SliderInfo a:hover{
+	color:#226fd6
+}
+.carousel-indicators { 
+    bottom: -44px;
+}
+button:focus, button:active, button {
+    box-shadow: none !important;
+    width: 30px;
+    margin: 5px;
+} 
+.carousel-indicators li{
+	background:#6e6e6e;
+	border:0px 
+}
+.carousel-indicators li.active { 
+    background: #ffa500; 
+}
+/* ReadMoreStories  */
+.ReadMoreStories{
+	margin:40px 0 0
+}
+.ReadMoreStories a{
+	font-size:18px;
+	padding:10px 40px;
+	border:1px solid #939393;
+	color:#0C3B7C;
+	border-radius:3px;
+	transition:0.7s; 
+}
+.ReadMoreStories a:hover{ 
+	background:#0C3B7C; 
+	color:#fff;
+	transition:0.7s
+}
+
+/* Our Initiactives  */
+
+h1 {
+    color: #6C7E91;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 3.6rem;
+}
+.Initiactives p {
+    color: #7C7C80; 
+}
+.ReadMoreStories a.WhiteBg{
+	background:#fff
+}
+.ReadMoreStories a.WhiteBg:hover{
+	background:#1b4784
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+    height: 46px;
+    font-size: 14px;
+	margin:30px 0
+} 
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    right:25px;
+    top: 10px;
+    font-size: 18px;
+}
+.InitiactivesBox{
+	margin:10px 0;
+	background:#fff;
+	border:1px solid #ccc;
+	text-align:left;
+    height: 400px;
+}
+.InitiactivesBox img{
+	width:100%
+} 
+.InitiactivesBox h2{
+	color:#0c3b7c;
+	margin:25px 15px;
+	font-size:18px;
+	min-height:75px
+}
+.EventInfo{
+	margin:15px 15px 30px
+}
+.EventInfo p{
+	margin: 0;
+    color: #666;
+    font-size: 20px;
+    line-height: 1.5;
+}
+/* Associated-with-Rotary  */
+.Associated-with-Rotary {
+	background:#faf2ed
+}
+ 
+
+/* News-Press-Events */
+.News-Press-Events{
+	background:#fbfbfb
+}
+
+.NewsBox{
+	margin:40px 0 20px;
+    padding:0 35px;
+}
+.NewsBox .Newstitle, .NewsBox .date {
+	font-size:16px;
+	color:#666;	
+	margin:0
+}
+
+.NewsBox h2{
+	color: #4d50e0;
+	margin:25px 0
+}
+
+/* MoreMembers  */
+.MoreMembers{
+	background:#e9f2f8
+}
+.MoreMembersBox {
+	margin-top:40px
+}
+.MoreMembersBox h2,h1{
+	color: #4d50e0;
+    /* margin-top: 20px;  */
+}
+.MoreMembersBox p{
+	color: #9c9c9c;
+    font-size: 1rem;
+}
+.text-center p{
+    font-size: 1rem;
+}
+
+
+
+/* Stay Connected */
+.StayConnected{
+	background:#e9e9e9
+}
+.StayConnected .appLink img{
+	 margin:10px
+}
+
+/* AdvantageSection */
+.AdvantageSection{
+	background:#000000;
+    display: none;
+}
+.AdvantageSection .Advantage{
+	margin:30px auto
+}
+.AdvantageSection .Advantage img{
+	width:100%
+}
+
+.leadersInfo{
+	margin-top:40px
+} 
+.leadersInfo h4{
+	font-size:18px;
+	margin-top:10px
+}
+ 
+.leadersInfo a{
+	font-size:18px;
+	margin-top:10px;
+    color: #0c3b7c;
+}
+.leadersInfo p{
+    color: #333;
+}
+
+.Our-story-Adv {
+	margin:40px auto
+}
+.Our-story-Adv img {
+	margin:0px auto
+}
+
+/* about us page css */
+.about .Info p span{
+	font-weight:500
+}
+
+.ourStoryINfo h4{
+	font-size: 3.5rem;
+    margin: 0;
+    margin-top: 10px;
+	
+}
+.ourStoryINfo p span{
+	font-size:18px;
+	color:#6c7e91
+	
+}
+
+/* Clients page css */
+
+.Clients_info .item {
+    border: 1px solid #cccc;
+    padding: 10px;
+     box-shadow: 2px 2px 8px #ccc;
+	margin:10px
+} 
+
+.TheFooter{
+    position: relative;
+    background: #e8ecef;
+    z-index: 100;
+}
+.TheFooter:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    background: #fff;
+    height: 180px;
+}
+.main{
+    padding: 100px 90px ;   
+	position: relative;
+    background: #0b1e44; 
+} 
+.TheFooter .main{
+    padding: 100px 7.65vw 90px 5vw;   
+	position: relative;
+    background: #0b1e44; 
+} 
+.pl0{
+	padding-left:0
+}
+
+/* footer menu css */
+.main .work-footer {
+    border-bottom: none
+}
+.main .work-footer li{
+	display:block;
+	text-align:left
+}
+.main .work-footer ul li:not(:last-child) {
+    border-right: 0px solid #54555b;
+}
+.main .footer-links li>a {
+    font-size: 1.8rem;
+    color: #fff;
+    padding: .2rem 0;
+    display: block;
+    position: relative;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.border {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    background: rgb(255, 255, 255);
+    height: 10px;
+}
+
+.main .backToProjectList {
+	float:left;
+	margin-right:20px;
+	margin-top:45px
+}	
+
+.btn-link.-white {
+    color: #fff;
+}
+.main .socials {
+    display: block;
+    padding-top: 40px;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+}
+
+.main .socials .social{
+    margin-right: 15px;
+	display: inline-block;
+	
+}
+.main .socials .social a {
+    font-size: 1.6rem;
+    display: inline-block;
+    font-weight: 500; 
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e8ecef;
+	text-decoration:none
+}
+
+.social-link{
+    text-transform: capitalize; 
+}  
+
+@media only screen and (min-width: 1025px){
+.TheFooter .main{
+    margin-left: 7.65vw;
+}
+}
+
+
+
+.OnlyMB{
+	display:none
+}   
+/* section */
+.section{
+	position:relative;
+	padding:60px 0 
+}
+.section::before{
+	content: url(../img/section-bgImg.png);
+    position: absolute;
+    right: 0rem;
+    top: -5rem;
+} 
+.section .sec-title{
+	margin-bottom:3rem;
+	color:#232439
+} 
+ 
+
+/* Responsive */
+  
+
+@media only screen and (max-width:1200px) {
+   
+.main-Div {
+     /* height: 740px; */
+    background-position-x: -160px;
+} 
+.main-menu{
+	/*padding:6px 15px*/
+    padding: 0;
+}
+}
+@media (max-width: 1024px){
+    .InterestingNumberBox p {
+        font-size: 14px;
+    }
+}
+ 
+@media only screen and (max-width: 991px) {
+  
+.work-footer ul li {
+    padding: 0 1rem;
+} 
+
+.section {
+    position: relative;
+    padding: 40px 0;
+}
+.Info .AboutInfo {
+    margin: 40px 0 0;
+}
+
+.main {
+    padding: 50px 30px;
+    position: relative;
+    background: #0b1e44;
+} 
+.TheFooter .main {
+    padding: 50px 30px;
+    position: relative;
+    background: #0b1e44;
+}
+.content {
+    /* padding-top: 15%; */
+}
+}
+ 
+@media only screen and (max-width: 768px) {
+.onlineShows li {
+    list-style: none;
+    text-align: center;
+    width: 90px;
+    display: inline-flex;
+}
+
+	.onlineShowsTxt {
+    padding-top: 5%;	
+}
+.title {
+    font-size: 4.2rem;
+    line-height: 1.3;
+    color: #fff;
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+/* .main-Div {
+    height: 350px;
+    background-position-y: 10px;
+    object-fit: cover;
+	background-position-x: 0px
+}  */
+.banner-a{
+    height: 350px;
+    max-width: 100%;
+}
+.work-footer ul li {
+    padding: 0 2rem;
+} 
+.Clients_info .item { 
+    margin: 10px;
+    width: 46%;
+    margin: 10px auto;
+}
+ 
+.NewsBox {
+    margin: 40px 18px 20px;
+}
+.MoreMembersBox {
+    margin-top: 40px;
+    text-align: center;
+}
+.TopNav{
+	display:none
+}
+
+.SliderInfo{
+	margin-top:30px
+}
+.navbar-brand .regular{
+	display:none!important
+}
+.navbar-brand .FixedLogo{
+	display:block!important
+}
+.OnlyMB{
+	display:block;
+	margin-bottom:10px
+}
+.OnlyDesk{
+	display:none
+}
+.main-menu{
+    padding:6px 15px;
+}
+.profileDiv span{
+    margin-left: 0;
+}
+}
+
+@media only screen and (max-width: 575px) {
+ .main-Div {
+   background-position-x: -30px
+} 
+}
+
+@media only screen and (max-width: 480px) {
+   
+}
+@media only screen and (max-width: 420px){
+.InterestingNumberBox {
+    text-align: center;
+    margin:15px 0;
+}
+
+.Clients_info .item { 
+    margin: 10px;
+    width: 45%;
+    margin: 6px auto;
+}
+.title {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+	margin-bottom:0px
+}
+.border { 
+    height: 5px;
+}
+.section {
+    position: relative;
+    padding: 40px 0;
+}
+.Info .AboutInfo {
+    margin: 40px 0 0;
+}
+
+.main {
+    padding: 50px 15px;
+    position: relative;
+    background: #0b1e44;
+}
+.main .backToProjectList {
+    float: inherit;
+    margin-right: 0px;
+    margin: 20px 0 30px;
+    width: 100%;
+}
+.backToProjectList a { 
+    /* width: 100%; */
+    text-align: center;
+}
+.ProductsImg .image{
+	margin:10px 0
+}
+.ProductsImg .pl0{
+	padding-left:15px
+}
+.TheFooter .main {
+    padding: 50px 15px;
+    position: relative;
+    background: #0b1e44;
+}
+.main .socials{
+	padding:0
+}
+.content {
+    /* padding-top: 30%; */
+}
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    .headWrap {
+        width: 42rem;
+    }
+    .service-panel:after {
+        right: -5rem;
+    }
+    .service-mob-hex .service-info-big br {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+	.ClassicalMusic .sec-title {
+    font-size: 20px;
+}.main-Div {
+     background-position-x: -50px;
+} 
+}
