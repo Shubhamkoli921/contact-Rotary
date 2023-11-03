@@ -143,12 +143,20 @@ blockquote p {
 	z-index:2;
 	opacity:0;
 }
-.container{
+/* .containers{
 	max-width: 1224px;
 	width:92%;
 	margin:0 auto;
 	position: relative;
 	margin-left: 5rem;
+	z-index:5;
+} */
+.container{
+	max-width: 1224px;
+	width:92%;
+	margin:0 auto;
+	position: relative;
+	/* margin-left: 5rem; */
 	z-index:5;
 }
 .big-container {
@@ -6449,6 +6457,7 @@ section.gray-section .section-separator {
 	width:23.3%;
 	position:relative;
 	padding:10px 4px;
+	margin-left: 1rem;
 }
 .section-team .team-box {
 	padding:10px 8px;
@@ -9539,8 +9548,8 @@ a.KnowMore:hover{
 	.Local{
 		padding: 0rem;
 	}
-	.container{
-		/* width: 80%; */
+	.containers{
+		/* width: 80%; */	
 		margin-left: 0rem;
 	}
 }
