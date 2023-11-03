@@ -148,6 +148,7 @@ blockquote p {
 	width:92%;
 	margin:0 auto;
 	position: relative;
+	margin-left: 5rem;
 	z-index:5;
 }
 .big-container {
@@ -9534,6 +9535,13 @@ a.KnowMore:hover{
 	}
 	.imgwrap{
 		width: 100%;
+	}
+	.Local{
+		padding: 0rem;
+	}
+	.container{
+		/* width: 80%; */
+		margin-left: 0rem;
 	}
 }
 
