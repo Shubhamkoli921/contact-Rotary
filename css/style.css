@@ -204,7 +204,7 @@ blockquote p {
 	background-size: cover;
 	background-attachment: scroll  ;
 	background-position: center  ;
-	background-repeat:repeat;
+	background-repeat:no-repeat;
 	background-origin: content-box;
 }
 .respimg {
@@ -1617,6 +1617,10 @@ section.gray-section .section-separator {
 }
 .bg_tabs{
 	transition: all 400ms linear;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 @keyframes move_wave {
     0% {
@@ -1647,7 +1651,6 @@ section.gray-section .section-separator {
     bottom: -45px;
 
 }
-
 .bgMiddle {
     z-index: 10;
 
@@ -9641,4 +9644,20 @@ a.KnowMore:hover{
     /* border-bottom: 1px solid rgba(255,255,255,0.11); */
     padding-bottom: 25px;
     /* position: relative; */
+}
+.rsl{
+	font-weight: bold;
+	color: white;
+	float: left;
+}
+.sub-footer-txt{
+	margin-bottom: 22px;
+}
+.main-register .custom-form input[type="text"], .main-register .custom-form input[type=email], .main-register .custom-form input[type=password] {
+    padding-left: 20px;
+    border: 1px solid #4DB7FE;
+}
+.main-register-holder .custom-form .btn {
+    margin-top: 0;
+    color: white;
 }
