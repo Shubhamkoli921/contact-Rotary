@@ -785,7 +785,7 @@ nav li ul a:before , nav li ul a:after {
 	display:none;
 }
 .nav-button-wrap {
-	float:right;
+	float:left;
 	height:36px;
 	width:36px;
 	cursor:pointer;
@@ -1899,7 +1899,7 @@ section.gray-section .section-separator {
 .wave {
 	opacity: .9;
 	position: absolute;
-	top: 3%;
+	top: 35%;
 	left: 50%;
 	background: #475897;
 	width: 500px;
@@ -8399,6 +8399,27 @@ section.absolute-wrap_section .section-separator {
 	  width: 50%;
 	}
   }
+  @media only screen and (max-width: 360px){
+.nav-button-wrap {
+    margin-right: 10px;
+    margin-left: 15px;
+}}
+  @media screen and (max-width:345px){
+	.header-search_btn {
+		float: left;
+		margin-left: 70px;
+		width: 180px;
+		padding: 14px 0;
+		border-radius: 30px;
+		position: relative;
+		color: #fff;
+		top: 18px;
+		font-weight: 500;
+		font-size: 13px;
+		background: #3d528b;
+		cursor: pointer;
+	}
+  }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
@@ -8772,7 +8793,7 @@ section.absolute-wrap_section .section-separator {
 	width:100%;
 }
 .faq-nav  , .list-main-wrap-header.anim_clw , .menusb , .main-menu .menusb ul  , .menusb li , .menusb  a  , .subscribe-widget   {
-	float:left;
+	float:right;
 }
 .col-list-wrap.anim_clw {
     padding-top: 0;
@@ -9660,4 +9681,9 @@ a.KnowMore:hover{
 .main-register-holder .custom-form .btn {
     margin-top: 0;
     color: white;
+}
+.main-register-form{
+	display: grid;
+	grid-template-columns: auto auto;
+    gap:20px;
 }
