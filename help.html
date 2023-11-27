@@ -558,13 +558,13 @@
                                     <div class="filter-tags">
                                         <input id="check-a3" type="checkbox" name="check">
                                         <label for="check-a3">Remember me</label>
-                                        
+
                                     </div>
                                     <div class="lost_password">
                                         <a href="#">Lost Your Password?</a>
                                     </div>
                                     <!-- </form> -->
-                                    
+
                                 </div>
                             </div>
                             <!--tab end -->
@@ -576,19 +576,19 @@
                                             id="main-register-form2">
                                             <div>
                                                 <label>Full Name <span>*</span> </label>
-                                            <input name="name" type="text" onClick="this.select()" value="">
+                                                <input name="name" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
                                                 <label>Email Address <span>*</span></label>
-                                            <input name="email" type="text" onClick="this.select()" value="">
+                                                <input name="email" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
                                                 <label>Company Name<span>*</span> </label>
-                                            <input name="name" type="text" onClick="this.select()" value="">
+                                                <input name="name" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
                                                 <label>Designation <span>*</span> </label>
-                                            <input name="name" type="text" onClick="this.select()" value="">
+                                                <input name="name" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
                                                 <label>Club Name<span>*</span> </label>
@@ -596,19 +596,19 @@
                                             </div>
                                             <div>
                                                 <label>Spouse Name <span>*</span> </label>
-                                            <input name="name" type="text" onClick="this.select()" value="">
+                                                <input name="name" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
                                                 <label>DOB<span>*</span> </label>
-                                            <input name="date" type="text" onClick="this.select()" value="">
+                                                <input name="date" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
                                                 <label>Marrage Anniversary Date<span>*</span> </label>
-                                            <input name="date" type="text" onClick="this.select()" value="">
+                                                <input name="date" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
                                                 <label>Address <span>*</span> </label>
-                                            <input name="name" type="text" onClick="this.select()" value="">
+                                                <input name="name" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
                                                 <label>City <span>*</span> </label>
@@ -616,35 +616,56 @@
                                             </div>
                                             <div>
                                                 <label>Pincode <span>*</span> </label>
-                                            <input name="name" type="text" onClick="this.select()" value="">
+                                                <input name="name" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
                                                 <label>Phone No <span>*</span> </label>
-                                            <input name="tel" type="text" onClick="this.select()" value="">
+                                                <input name="tel" type="text" onClick="this.select()" value="">
                                             </div>
-                                            
 
-                                            <div class="filter-tags ft-list" style="display:flex">
-                                                <input id="check-a2" type="checkbox" name="check">
-                                                <label for="check-a2">I agree to the <a href="#">Privacy
-                                                        Policy</a></label>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                            <div class="filter-tags ft-list" style="display: flex;">
-                                                <input id="check-a" type="checkbox" name="check">
-                                                <label for="check-a">I agree to the <a href="#">Terms and
-                                                        Conditions</a></label>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                            <button type="submit" class="btn float-btn color2-bg"> Register <i
-                                                    class="fas fa-caret-right"></i></button>
+
+
                                         </form>
+
+                                        <body onload="generate()">
+                                            <div id="user-input" class="inline">
+                                                <label for="Capcha code">Enter Captcha Here *</label>
+                                                <input type="text" id="submit" placeholder="Captcha code" />
+                                            </div>
+
+
+                                            <div id="image" class="inline" selectable="False">
+                                            </div>
+                                            <div class="inline" onclick="generate()">
+                                                <i class="fas fa-sync"></i>
+                                            </div>
+                                            <input type="submit" id="btn" onclick="printmsg()" />
+
+                                            <p id="key"></p>
+
+                                        </body>
+                                        <div class="filter-tags ft-list" style="display:flex">
+                                            <input id="check-a2" type="checkbox" name="check">
+                                            <label for="check-a2">I agree to the <a href="#">Privacy
+                                                    Policy</a></label>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="filter-tags ft-list" style="display: flex;">
+                                            <input id="check-a" type="checkbox" name="check">
+                                            <label for="check-a">I agree to the <a href="#">Terms and
+                                                    Conditions</a></label>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <button type="submit" class="btn float-btn color2-bg"> Register <i
+                                                class="fas fa-caret-right"></i></button>
                                     </div>
                                 </div>
                             </div>
                             <!--tab end -->
                         </div>
                         <!--tabs end -->
+
+
 
                         <div class="wave-bg">
                             <div class='wave -one' style="top: 35%;"></div>
@@ -662,6 +683,63 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        // read more js
+        $(document).ready(function () {
+
+            $('[data-toggle="collapse"]').click(function () {
+                $(this).toggleClass("active");
+                if ($(this).hasClass("active")) {
+                    $(this).text("Hide");
+                } else {
+                    $(this).text("Read More");
+                }
+            });
+        });
+
+        let captcha;
+
+        function generate() {
+
+            // Clear old input
+            document.getElementById("submit").value = "";
+
+            // Access the element to store
+            // the generated captcha
+            captcha = document.getElementById("image");
+            let uniquechar = "";
+
+            const randomchar =
+                "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+            // Generate captcha for length of
+            // 5 with random character
+            for (let i = 1; i < 5; i++) {
+                uniquechar += randomchar.charAt(
+                    Math.random() * randomchar.length)
+            }
+
+            // Store generated input
+            captcha.innerHTML = uniquechar;
+        }
+
+        function printmsg() {
+            const usr_input = document
+                .getElementById("submit").value;
+
+            // Check whether the input is equal
+            // to generated captcha or not
+            if (usr_input == captcha.innerHTML) {
+                let s = document.getElementById("key")
+                    .innerHTML = "Matched";
+                generate();
+            } else {
+                let s = document.getElementById("key")
+                    .innerHTML = "not Matched";
+                generate();
+            }
+        }
+    </script>
 </body>
 
 </html>
