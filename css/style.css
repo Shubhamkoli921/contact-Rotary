@@ -1733,8 +1733,9 @@ section.gray-section .section-separator {
 	opacity:0;
 }
 .modal_main.vis_mr {
-	opacity:1;
-    transform :scale(1.0);
+    opacity: 1;
+    transform: scale(1.0);
+    width: 130%;
 }
 .close-reg {
 	position:absolute;
