@@ -13,6 +13,7 @@
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/color.css">
+        <link type="text/css" rel="stylesheet" href="css/extra2.css">
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="images/favicon.ico">
         
@@ -216,79 +217,174 @@
                             <a href="#sec1" class="custom-scroll-link"><i class="fal fa-angle-double-down"></i></a> 
                         </div>
                     </section>
-                    <!--  section  end-->
                     <section class="gray-bg no-top-padding-sec" id="sec1">
                         <div style="margin-top: 4rem;" class="section-title">
                             <h2>UpComming Events</h2>
                             <span class="section-separator"></span>
                             
                         </div>
-                        <div class="container">
-                            <br>
-                            <div class="share-holder hid-share sing-page-share top_sing-page-share">
-                                <div class="share-container  isShare"></div>
-                            </div>
-                            <div class="post-container fl-wrap">
-                                <div class="row">
-                                    <!-- blog content-->
-                                    <div class="col-md-8">
-                                        <!-- article> --> 
-                                        <article class="post-article">
-                                            <div class="list-single-main-media fl-wrap">
-                                                <div class="single-slider-wrap">
-                                                    <div class="single-slider fl-wrap">
-                                                        <img src="./images/boxcricket.jpeg" alt="">
-                                                    </div>
-                                                    <div class="listing-carousel_pagination">
-                                                        <div class="listing-carousel_pagination-wrap">
-                                                            <div class="ss-slider-pagination"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="list-single-main-item fl-wrap block_box">
-                                                <h2 class="post-opt-title"><a href="blog-single.html">District Level Box Cricket Pune</a></h2>
-                                                <p>Decision to take the district level Box cricket Formalize the route and method to go ahead Tentative Budget Zone wise representative</p>
-                                                <br/>
-                                                <p>Cheif Guest : <span>	DRT. Rtn. Dr. Abhay Sontake</span></p>
-                                                <span class="fw-separator"></span>
-                                                <div class="post-opt">
-                                                    <ul class="no-list-style">
-                                                        <li><i class="fal fa-calendar"></i> <span>25 April 2023</span></li>
-                                                        <li><i class="fal fa-calendar"></i> <span>06:30:00</span></li>
-                                                        <li><i class="fal fa-tags"></i> <a href="#">A3 First Floor, CTS No.124/1Plot #83, Law College Rd.Erandawane</a> </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </article>
-                                        <!-- article end -->                                                                     
-                                                               
-                                        <!-- article> --> 
-                                        <article class="post-article">
-                                            <div class="list-single-main-media fl-wrap">
-                                                <img src="./images/district.jpg" class="respimg" alt="">
-                                            </div>
-                                            <div class="list-single-main-item fl-wrap block_box">
-                                                <h2 class="post-opt-title"><a href="blog-single.html">District Trainer Resources meeting - Pune Uptown </a></h2>
-                                                <p>Meeting call to order. Four way test Birthday & Anniversaries Introduction of Guest Rotary Information Games. secretarial announcement Meeting adjourned.</p>
-                                                <br/>
-                                                <p>Cheif Guest : <span>	DRT. Rtn. Dr. Abhay Sontake</span></p>
-                                                <span class="fw-separator"></span>
-                                                <div class="post-opt">
-                                                    <ul class="no-list-style">
-                                                        <li><i class="fal fa-calendar"></i> <span>25 April 2023</span></li>
-                                                        <li><i class="fal fa-calendar"></i> <span>06:30:00</span></li>
-                                                        <li><i class="fal fa-tags"></i> <a href="#">A3 First Floor, CTS No.124/1Plot #83, Law College Rd.Erandawane</a> </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <!-- blog conten end-->
-                                    
+                    </section>
+                    <!--  section  end-->
+                    <section class="gray-bg no-top-padding-sec" id="sec1">
+
+                        
+                        <script>
+                            // fill the month table with column headings
+                            function day_title(day_name) {
+                              document.write("<div class='c-cal__col'>" + day_name + "</div>");
+                            }
+                            // fills the month table with numbers
+                            function fill_table(month, month_length, indexMonth) {
+                              day = 1;
+                              // begin the new month table
+                              document.write("<div class='c-main c-main-" + indexMonth + "'>");
+                              //document.write("<b>"+month+" "+year+"</b>")
+                              // column headings
+                              document.write("<div class='c-cal__row'>");
+                              day_title("Sun");
+                              day_title("Mon");
+                              day_title("Tue");
+                              day_title("Wed");
+                              day_title("Thu");
+                              day_title("Fri");
+                              day_title("Sat");
+                              document.write("</div>");
+                              // pad cells before first day of month
+                              document.write("<div class='c-cal__row'>");
+                              for (var i = 1; i < start_day; i++) {
+                                if (start_day > 7) {} else {
+                                  document.write("<div class='c-cal__cel'></div>");
+                                }
+                              }
+                              // fill the first week of days
+                              for (var i = start_day; i < 8; i++) {
+                                document.write(
+                                  "<div data-day='2022-" +
+                                  indexMonth +
+                                  "-0" +
+                                  day +
+                                  "'class='c-cal__cel'><p>" +
+                                  day +
+                                  "</p></div>"
+                                );
+                                day++;
+                              }
+                              document.write("</div>");
+                              // fill the remaining weeks
+                              while (day <= month_length) {
+                                document.write("<div class='c-cal__row'>");
+                                for (var i = 1; i <= 7 && day <= month_length; i++) {
+                                  if (day >= 1 && day <= 9) {
+                                    document.write(
+                                      "<div data-day='2022-" +
+                                      indexMonth +
+                                      "-0" +
+                                      day +
+                                      "'class='c-cal__cel'><p>" +
+                                      day +
+                                      "</p></div>"
+                                    );
+                                    day++;
+                                  } else {
+                                    document.write(
+                                      "<div data-day='2022-" +
+                                      indexMonth +
+                                      "-" +
+                                      day +
+                                      "' class='c-cal__cel'><p>" +
+                                      day +
+                                      "</p></div>"
+                                    );
+                                    day++;
+                                  }
+                                }
+                                document.write("</div>");
+                                // the first day of the next month
+                                start_day = i;
+                              }
+                              document.write("</div>");
+                            }
+                          </script>
+                          <header>
+                            
+                            <div class="wrappers">
+                                
+                              <div class="c-monthyear">
+                                <div class="c-month">
+                                  <span id="prev" class="prev fa fa-angle-left" aria-hidden="true"></span>
+                                  <div id="c-paginator">
+                                    <span class="c-paginator__month">JANUARY</span>
+                                    <span class="c-paginator__month">FEBRUARY</span>
+                                    <span class="c-paginator__month">MARCH</span>
+                                    <span class="c-paginator__month">APRIL</span>
+                                    <span class="c-paginator__month">MAY</span>
+                                    <span class="c-paginator__month">JUNE</span>
+                                    <span class="c-paginator__month">JULY</span>
+                                    <span class="c-paginator__month">AUGUST</span>
+                                    <span class="c-paginator__month">SEPTEMBER</span>
+                                    <span class="c-paginator__month">OCTOBER</span>
+                                    <span class="c-paginator__month">NOVEMBER</span>
+                                    <span class="c-paginator__month">DECEMBER</span>
+                                  </div>
+                                  <span id="next" class="next fa fa-angle-right" aria-hidden="true"></span>
                                 </div>
+                                <span class="c-paginator__year">2023</span>
+                              </div>
+                              <div class="c-sort">
+                                <a class="o-btn c-today__btn" href="javascript:;">TODAY</a>
+                              </div>
                             </div>
-                        </div>
+                          </header>
+                          <div class="wrappers">
+                            <div class="c-calendar">
+                              <div class="c-calendar__style c-aside">
+                                <a class="c-add o-btn js-event__add" href="javascript:;">add event <span class="fa fa-plus"></span></a>
+                                <div class="c-aside__day">
+                                  <span class="c-aside__num"></span> <span class="c-aside__month"></span>
+                                </div>
+                                <div class="c-aside__eventList">
+                                </div>
+                              </div>
+                              <div class="c-cal__container c-calendar__style">
+                                <script>
+                                  // CAHNGE the below variable to the CURRENT YEAR
+                                  year = 2023;
+                                  // first day of the week of the new year
+                                  today = new Date("January 1, " + year);
+                                  start_day = today.getDay() + 1;
+                                  fill_table("January", 31, "01");
+                                  fill_table("February", 28, "02");
+                                  fill_table("March", 31, "03");
+                                  fill_table("April", 30, "04");
+                                  fill_table("May", 31, "05");
+                                  fill_table("June", 30, "06");
+                                  fill_table("July", 31, "07");
+                                  fill_table("August", 31, "08");
+                                  fill_table("September", 30, "09");
+                                  fill_table("October", 31, "10");
+                                  fill_table("November", 30, "11");
+                                  fill_table("December", 31, "12");
+                                </script>
+                              </div>
+                            </div>
+                        
+                            <div class="c-event__creator c-calendar__style js-event__creator">
+                              <a href="javascript:;" class="o-btn js-event__close">CLOSE <span class="fa fa-close"></span></a>
+                              <form id="addEvent">
+                                <input placeholder="Event name" type="text" name="name">
+                                <input type="date" name="date">
+                                <textarea placeholder="Notes" name="notes" cols="30" rows="10"></textarea>
+                                <select name="tags">
+                                  <option value="event">event</option>
+                                  <option value="important">important</option>
+                                  <option value="birthday">birthday</option>
+                                  <option value="festivity">festivity</option>
+                                </select>
+                              </form>
+                              <br>
+                              <a href="javascript:;" class="o-btn js-event__save">SAVE <span class="fa fa-save"></span></a>
+                            </div>
+                          </div>
                     </section>  
                     <div class="limit-box fl-wrap"></div>
                 </div>
@@ -553,13 +649,14 @@
                 </div>
             </div>
         </div>
-        <!--register form end -->    
+        <!--register form end -->       
         </div>
         <!-- Main end -->
         <!--=============== scripts  ===============-->
         <script src="js/jquery.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/calender.js"></script>
         <script>
             // read more js
             $(document).ready(function () {

@@ -1175,7 +1175,8 @@ section {
 }
 section.parallax-section {
 	padding:110px 0;
-	overflow:hidden;
+	overflow:hidden;	
+	height: 500px;
 }
 section.filter-section {
 	padding:110px 0 0;
