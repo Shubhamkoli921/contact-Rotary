@@ -552,5 +552,9 @@
     }
     .c-cal__container{
         width: 90%;
+        height: 400px;
+    }
+    .o-btn{
+        display: none;
     }
   }

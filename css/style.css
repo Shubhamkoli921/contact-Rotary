@@ -1197,6 +1197,7 @@ section.parallax-section.small-par {
 section.hero-section {
 	padding:100px 0 100px;
 	z-index:20;
+	height: 500px;
 }
 .slw-sec {
 	padding:80px 0 60px;
