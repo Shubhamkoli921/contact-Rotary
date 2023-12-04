@@ -13,6 +13,7 @@
 } 
 .color2-bg  , .list-widget-social li a:hover  , .accordion a.toggle.act-accordion , .banner-wdget-content a:hover , .inline-lsiw   .listsearch-input-wrap_contrl li.current a  , .cc-btn:hover     , .down-btn:hover   , .new-dashboard-item:hover  , .header-search-button:hover  , .lg-actions .lg-next, .lg-actions .lg-prev , .box-media-zoom:hover  , .main-search-button {
     background: #384F95;
+	color:#fff;
 }
 .share-holder.hid-share .share-container  .share-icon:hover  {
 	color:#384F95;
