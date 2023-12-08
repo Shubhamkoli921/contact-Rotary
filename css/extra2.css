@@ -273,7 +273,7 @@
     background-color: #66b1f6;
   }
   .c-calendar {
-    padding-top: 80px;
+    padding-top: 0px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -286,7 +286,9 @@
     -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.18);
     border-radius: 6px;
     -webkit-border-radius: 6px;
+    /* height: 500px; */
   }
+  
   .c-cal__container {
     position: relative;
     width: calc(100% - 300px);
@@ -302,6 +304,7 @@
     right: 0;
     width: 100%;
     padding: 10px;
+    height: 500px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -552,5 +555,40 @@
     }
     .c-cal__container{
         width: 90%;
+        height: 400px;
+    }
+    .o-btn{
+        display: none;
     }
   }
+
+.outerdiv{
+    display: flex;
+    flex-direction: column;
+    /* padding: 2   rem; */
+    margin: 2rem;
+}
+.innerdiv{
+    /* text-align: center;
+    color: #0000;
+    margin: 2px; */
+    font-size: 1.2rem;
+}
+.findclubbtn{
+    margin-top: 2rem;
+}
+.single-par{
+    /* display: flex; */
+    background-color: #d7e7f6;
+    height: 100px;
+}
+.findclubbtna{
+    text-align: center;
+    border: 1px solid black;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #66b1f6;
+
+}

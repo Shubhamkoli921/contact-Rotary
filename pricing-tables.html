@@ -14,11 +14,16 @@
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/color.css">
         <link type="text/css" rel="stylesheet" href="css/extra.css">
+        <link type="text/css" rel="stylesheet" href="css/pricing.css">
+       
+        
         
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="images/favicon.ico">
         <script src="https://kit.fontawesome.com/4a58583c66.js" crossorigin="anonymous"></script>
     </head>
+    
+    
     <body>
         <!--loader-->
         <div class="loader-wrap">
@@ -253,6 +258,7 @@
                             <a href="#sec1" class="custom-scroll-link"><i class="fal fa-angle-double-down"></i></a>
                         </div>
                     </section>
+
                     <div class="col-list novis_to-top">
                         <!-- list-main-wrap-header-->
                         
@@ -356,8 +362,100 @@
                                 <!--tabs end-->
                             </div>
                         </div>
+                       
                         <!-- listsearch-input-wrap end-->
                         <!-- listing-item-container -->
+                        <section class="activities-card">
+                            <div class="section-title">
+                                <h2>Activities</h2>
+                                <span class="section-separator"></span>
+                                <div class="search-form">
+                                    <form action="/search" method="GET">
+                                        <!-- <label class="form-search-label" for="searchInput">Search:</label> -->
+                                        <input class="input-box" type="text" id="searchInput" name="q" placeholder="Search by Title,Description ,etc">
+                                        
+                                        <label class="form-search-label" for="categorySelect">By Club</label>
+                                        <select id="categorySelect" name="category">
+                                            <option value="all">All Club</option>
+                                            <option value="category1">Club 1</option>
+                                            <option value="category2">Club 2</option>
+                                            <!-- Add more options as needed -->
+                                        </select>
+                                        
+                                        <label class="form-search-label" for="sortBySelect">Sort By:</label>
+                                        <select id="sortBySelect" name="sort">
+                                            <option value="relevance">Relevance</option>
+                                            <option value="date">Date</option>
+                                            <option value="popularity">Popularity</option>
+                                            <!-- Add more options as needed -->
+                                        </select>
+                                        
+                                        <button class="search-btn" type="submit">Search</button>
+                                    </form>
+                                </div>
+                            </div>
+                          <div class="outer-card">
+                            <div class="card">
+                                <img src="./images/blood.jpg" alt="Activity ">
+                                <div class="card-content">
+                                  <div class="card-title">Blood Donation</div>
+                                  <div class="card-description">
+                                    Enjoy an exciting outdoor adventure with breathtaking views and thrilling activities.
+                                  </div>
+                                </div>
+                                <div class="card-footer">
+                                    <i class='fas fa-calendar-alt'><span class="date-span">14/04/2023</span></i>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <img src="./images/zipline.jpg" alt="Activity Image">
+                                <div class="card-content">
+                                  <div class="card-title">Outdoor Adventure</div>
+                                  <div class="card-description">
+                                    Enjoy an exciting outdoor adventure with breathtaking views and thrilling activities.
+                                  </div>
+                                </div>
+                                <div class="card-footer">
+                                    <i class='fas fa-calendar-alt'><span class="date-span">14/04/2023</span></i>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <img src="./images/tree.jpg" alt="Activity Image">
+                                <div class="card-content">
+                                  <div class="card-title">Tree plantation</div>
+                                  <div class="card-description">
+                                    Enjoy an exciting outdoor adventure with breathtaking views and thrilling activities.
+                                  </div>
+                                </div>
+                                <div class="card-footer">
+                                    <i class='fas fa-calendar-alt'><span class="date-span">14/04/2023</span></i>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <img src="./images/swacha.jpg" alt="Activity Image">
+                                <div class="card-content">
+                                  <div class="card-title">Swacha-Bharat-Abhiyaan</div>
+                                  <div class="card-description">
+                                    Enjoy an exciting outdoor adventure with breathtaking views and thrilling activities.
+                                  </div>
+                                </div>
+                                <div class="card-footer">
+                                    <i class='fas fa-calendar-alt'><span class="date-span">14/04/2023</span></i>
+                                </div>
+                              </div>
+                              
+                          </div>
+                          
+                        </section>
+                        <section class="event-section-show-more pt-5 pb-5" id="show_more_main34682">
+                            <div class="container text-center pt-5 pb-5">
+                                           <!-- <a href="javascript:void(0);" class="btn mb-3 show_more" id="34682">Show 5 more</a> -->
+                                           <br>
+                                              <!-- <div class="loding" style="display: none;"><div>Loading...</div></div> -->
+                               <!-- <a href="javascript:void(0);">of 1524</a> -->
+                               <a href="javascript:void(0);">LOAD MORE</a>
+                            </div>
+                         </section>
                         <section id="sec3">
                             <div class="containers">
                                 <div class="section-title">
