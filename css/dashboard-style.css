@@ -964,3 +964,10 @@ section.main-dashboard-sec {
     top: 50px;
 }
 }
+section {
+    float: left;
+    position: relative;
+    background: #fff;
+    z-index: 1;
+    width: 100%;
+}
