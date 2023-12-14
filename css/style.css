@@ -1176,7 +1176,7 @@ section {
 section.parallax-section {
 	padding:110px 0;
 	overflow:hidden;	
-	height: 500px;
+	height: 300px;
 }
 section.filter-section {
 	padding:110px 0 0;
@@ -1200,7 +1200,7 @@ section.hero-section {
 	height: 500px;
 }
 .slw-sec {
-	padding:80px 0 60px;
+	padding:0px 0 60px;
 }
 .gray-bg {
 background: #f6f6f6;
@@ -1218,6 +1218,7 @@ section.hero-section .bg   {
 	width:100%;
 	position:relative;
 	padding-bottom:50px;
+	margin-top: 4rem;
 }
 .parallax-section .section-title {
 	padding-bottom:0;
@@ -4119,6 +4120,7 @@ section.gray-section .section-separator {
 }
 .geodir-category-content {
 	z-index:2;
+	/* height: 250px; */
 }
 .geodir-category-img {
 	float:left;
@@ -4308,6 +4310,7 @@ section.gray-section .section-separator {
 }
 .geodir-category-content h3 a{
 	color: #566985;
+	font-size: 20px;
 }
 .verified-badge  {
 	display: inline-table;
