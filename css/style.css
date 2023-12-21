@@ -1157,12 +1157,9 @@ section {
 }
 section.parallax-section {
 	padding:110px 0;
-<<<<<<< HEAD
 	overflow:hidden;	
 	height: 300px;
-=======
 	overflow:hidden;
->>>>>>> 5784a22e47d2be52b662f98eec2fa76589419ad5
 }
 section.filter-section {
 	padding:110px 0 0;
