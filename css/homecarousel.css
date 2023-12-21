@@ -95,6 +95,76 @@
 .p-span{
   font-size: 15px;
 }
+.photo-gallery-section{
+  max-width: 1200px;
+  margin: auto;
+}
+.inner-container{
+  display:flex ;
+  /* flex-direction: column; */
+  overflow: auto;
+  white-space: nowrap;
+}
+.inner-container img{
+  width: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.business-map{
+  display: flex;
+}
+.checked {
+  color: orange;
+}
+.business-review{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.outer-business-review{
+  /* background-color: #bbb; */
+  border:#bbb 1px solid;
+
+  padding: 10px;
+}
+.inner-business-review{
+  display: flex;
+  flex-direction: column;
+}
+.info1{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.info1 i{
+ font-size: 30px;
+}
+.info1 span{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.star-review{
+  display: flex;
+  margin-top: 10px;
+}
+.star-date{
+  margin-left: 10px;
+}
+.reviews-desc{
+  margin-top: 5px;
+}
+
+.media-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.media-links-fa i{
+  margin-top: 10px;
+  font-size: 30px;
+}
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
