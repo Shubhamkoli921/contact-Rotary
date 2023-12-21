@@ -1,0 +1,760 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <!--=============== basic  ===============-->
+        <meta charset="UTF-8">
+        <title>Contact Directory</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="robots" content="index, follow"/>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <!--=============== css  ===============-->	
+        <link type="text/css" rel="stylesheet" href="css/reset.css">
+        <link type="text/css" rel="stylesheet" href="css/plugins.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link type="text/css" rel="stylesheet" href="css/color.css">
+        <!--=============== favicons ===============-->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        
+    </head>
+    <body>
+        <!--loader-->
+        <div class="loader-wrap">
+            <div class="loader-inner">
+                <div class="loader-inner-cirle"></div>
+            </div>
+        </div>
+        <!--loader end-->
+        <!-- main start  -->
+        <div id="main">
+            <!-- header -->
+            <header class="main-header">
+                <!-- logo-->
+                <a href="index.html" class="logo-holder"><img src="../contact-Rotary/images/Rotary-logo.png" alt=""></a>
+                <!-- logo end-->
+                <!-- header-search_btn-->
+                <div class="header-search_btn show-search-button"><i class="fal fa-search"></i><span>Search</span></div>
+                <!-- header-search_btn end-->
+                <!-- header opt -->
+                
+               
+                <div class="show-reg-form modal-open avatar-img" data-srcav="images/avatar/3.jpg">
+                    <i class="fal fa-user"></i>Sign In
+                </div>
+                <!-- header opt end-->
+                <!-- lang-wrap-->
+                
+                <!-- lang-wrap end-->
+                <!-- nav-button-wrap-->
+                <div class="nav-button-wrap color-bg">
+                    <div class="nav-button">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+                <!-- nav-button-wrap end-->
+               <!--  navigation -->
+            <div class="nav-holder main-menu">
+                <nav>
+                    <ul class="no-list-style">
+                        <li>
+                            <a href="/contact-Rotary/index.html">Home </a>
+                            <!--second level -->
+
+                            <!--second level end-->
+                        </li>
+                        <li>
+                            <a href="#">Rotary International <i class="fa fa-caret-down"></i></a>
+                            <!--second level -->
+                            <ul>
+                                <li><a href="author-single.html">Messages</a></li>
+                                <li><a href="blog-single.html">Shekhar and Movers</a></li>
+                                <li><a href="help.html">RI Avenue</a></li>
+                                <li><a href="booking.html">New Generation</a></li>
+
+                            </ul>
+                            <!--second level end-->
+                        </li>
+                        <li>
+                            <a href="#">Committess <i class="fa fa-caret-down"></i></a>
+                            <!--second level -->
+                            <ul>
+                                <li><a href="listing5.html">Committess</a></li>
+                                <li><a href="listing.html">Rotary Clubs</a></li>
+                                <li><a href="dashboard.html">District Administrations</a></li>
+
+                            </ul>
+                            <!--second level end-->
+                        </li>
+                        <li>
+                            <a href="#">Events <i class="fa fa-caret-down"></i></a>
+                            <!--second level -->
+                            <ul>
+                                <li><a href="blog.html">District Events</a></li>
+                                <li><a href="pricing-tables.html">District Activities</a></li>
+
+                            </ul>
+                            <!--second level end-->
+                        </li>
+                        
+                        <li>
+                            <a href="#">About <i class="fa fa-caret-down"></i></a>
+                            <!--second level -->
+                            <ul>
+
+                                <li><a href="about.html">About DG</a></li>
+                                <li><a href="contacts.html">Contacts US</a></li>
+                                <li><a href="listing.html">Fond Memories</a></li>
+                            </ul>
+                            <!--second level end-->
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+            <!-- navigation  end -->
+                <!-- header-search_container -->
+            <div class="header-search_container header-search vis-search">
+                <div class="container small-container">
+                    <div class="header-search-input-wrap fl-wrap">
+                        <!-- header-search-input -->
+                        <div class="header-search-input">
+                            <label><i class="fal fa-keyboard"></i></label>
+                            <input type="text" placeholder="Search Name ?" value="" />
+                        </div>
+                        <!-- header-search-input end -->
+                        <!-- header-search-input -->
+                        <div class="header-search-input location autocomplete-container">
+                            <label><i class="fal fa-map-marker"></i></label>
+                            <input type="text" placeholder="Location..." class="autocomplete-input" id="autocompleteid2"
+                                value="" />
+                            <a href="#"><i class="fal fa-dot-circle"></i></a>
+                        </div>
+                        <!-- header-search-input end -->
+                        <!-- header-search-input -->
+                        <div class="header-search-input header-search_selectinpt ">
+                            <select data-placeholder="Category" class="chosen-select no-radius">
+                                <option>Search Club Name</option>
+                                <option>All Categories</option>
+                                <option>Shops</option>
+                                <option>Hotels</option>
+                                <option>Restaurants</option>
+                                <option>Fitness</option>
+                                <option>Events</option>
+                            </select>
+                        </div>
+                        <!-- header-search-input end -->
+                        <button class="header-search-button green-bg" onclick="window.location.href='listing.html'"><i
+                                class="far fa-search"></i> Search </button>
+                    </div>
+                    <div class="header-search_close color-bg"><i class="fal fa-long-arrow-up"></i></div>
+                </div>
+            </div>
+            <!-- header-search_container  end -->
+                <!-- wishlist-wrap-->
+                <div class="header-modal novis_wishlist">
+                    <!-- header-modal-container-->
+                    <div class="header-modal-container scrollbar-inner fl-wrap" data-simplebar>
+                        <!--widget-posts-->
+                        <div class="widget-posts  fl-wrap">
+                            <ul class="no-list-style">
+                                <li>
+                                    <div class="widget-posts-img"><a href="listing-single.html"><img
+                                                src="images/gallery/thumbnail/1.png" alt=""></a>
+                                    </div>
+                                    <div class="widget-posts-descr">
+                                        <h4><a href="listing-single.html">Iconic Cafe</a></h4>
+                                        <div class="geodir-category-location fl-wrap"><a href="#"><i
+                                                    class="fas fa-map-marker-alt"></i> 40 Journal Square Plaza, NJ, USA</a>
+                                        </div>
+                                        <div class="widget-posts-descr-link"><a href="listing.html">Restaurants </a> <a
+                                                href="listing.html">Cafe</a></div>
+                                        <div class="widget-posts-descr-score">4.1</div>
+                                        <div class="clear-wishlist"><i class="fal fa-times-circle"></i></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="widget-posts-img"><a href="listing-single.html"><img
+                                                src="images/gallery/thumbnail/1.png" alt=""></a>
+                                    </div>
+                                    <div class="widget-posts-descr">
+                                        <h4><a href="listing-single.html">MontePlaza Hotel</a></h4>
+                                        <div class="geodir-category-location fl-wrap"><a href="#"><i
+                                                    class="fas fa-map-marker-alt"></i> 70 Bright St New York, USA </a></div>
+                                        <div class="widget-posts-descr-link"><a href="listing.html">Hotels </a> </div>
+                                        <div class="widget-posts-descr-score">5.0</div>
+                                        <div class="clear-wishlist"><i class="fal fa-times-circle"></i></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="widget-posts-img"><a href="listing-single.html"><img
+                                                src="images/gallery/thumbnail/1.png" alt=""></a>
+                                    </div>
+                                    <div class="widget-posts-descr">
+                                        <h4><a href="listing-single.html">Rocko Band in Marquee Club</a></h4>
+                                        <div class="geodir-category-location fl-wrap"><a href="#"><i
+                                                    class="fas fa-map-marker-alt"></i>75 Prince St, NY, USA</a></div>
+                                        <div class="widget-posts-descr-link"><a href="listing.html">Events</a> </div>
+                                        <div class="widget-posts-descr-score">4.2</div>
+                                        <div class="clear-wishlist"><i class="fal fa-times-circle"></i></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="widget-posts-img"><a href="listing-single.html"><img
+                                                src="images/gallery/thumbnail/1.png" alt=""></a>
+                                    </div>
+                                    <div class="widget-posts-descr">
+                                        <h4><a href="listing-single.html">Premium Fitness Gym</a></h4>
+                                        <div class="geodir-category-location fl-wrap"><a href="#"><i
+                                                    class="fas fa-map-marker-alt"></i> W 85th St, New York, USA</a></div>
+                                        <div class="widget-posts-descr-link"><a href="listing.html">Fitness</a> <a
+                                                href="listing.html">Gym</a> </div>
+                                        <div class="widget-posts-descr-score">5.0</div>
+                                        <div class="clear-wishlist"><i class="fal fa-times-circle"></i></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- widget-posts end-->
+                    </div>
+                    <!-- header-modal-container end-->
+                    <div class="header-modal-top fl-wrap">
+                        <h4>Your Wishlist : <span><strong></strong> Locations</span></h4>
+                        <div class="close-header-modal"><i class="far fa-times"></i></div>
+                    </div>
+                </div>
+                <!--wishlist-wrap end -->
+            </header>
+            <!-- header end-->
+            <!-- header end-->
+            <!-- wrapper-->
+            <div id="wrapper">
+                <!-- content-->
+                <div class="content">
+                    <section class="gray-bg no-top-padding-sec" id="sec1">
+                        <div class="container">
+                            
+                            <div class="fl-wrap">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <!-- list-single-main-item --> 
+                                        <div class="user-profile-header fl-wrap">
+                                            <div class="user-profile-header_media fl-wrap">
+                                                <div class="bg"  data-bg="images/advertise/add.jpg"></div>
+                                                <div class="user-profile-header_media_title">
+                                                    <h3>RI President Shekar Mehta's Message</h3>
+                                                    <h4>Rotary 2023</h4>
+                                                </div>
+                                               
+                                                
+                                            </div>
+                                            <div class="user-profile-header_content fl-wrap">
+                                                <div class="user-profile-header-avatar">
+                                                    <img src="./Rotary_Images/Rotary_Images/Shekhar Metha.jpg" alt="">
+                                                </div>
+                                                <p>Dear Fellow Rotarians</p>
+                                                <p>We have been through trying times together. We have helped 
+                                                    the world cope with uncertainty and adapt to rapid change. 
+                                                    Now is the time for us to dream big.
+                                                    It is time for us to take on major challenges, to do more and 
+                                                    grow more, and most of all, for us to care for and share with 
+                                                    others.
+                                                    This year, we note all the ways that we Serve to Change Lives. 
+                                                    Service is the rent we pay for our time on earth and we will 
+                                                    expand Rotary service as we grow more and do more. We will 
+                                                    grow through Each One, Bring One. If every Rotary member 
+                                                    could bring just one more person to Rotary, there is no limit to 
+                                                    how much we can grow. We will do more by putting a special 
+                                                    emphasis on empowering girls, so young women can have 
+                                                    improved opportunities worldwide. We will also feature Rotary 
+                                                    Days of Service, so that all members share in our good works 
+                                                    around the globe and look for new ways to serve beyond their 
+                                                    backyards.
+                                                    It is our attitude that defines service. We all have a great 
+                                                    opportunity to lead by example and to inspire each other to 
+                                                    participate in projects that have a measured and sustained 
+                                                    impact.
+                                                    The District Board has assumed important responsibilities and I 
+                                                    thank them for this hard work. They have made a commitment 
+                                                    to help grow Rotary, adapt to the digital future and make 
+                                                    Rotary more appealing to younger generations. 
+                                                    Your good work will help us serve our communities and help 
+                                                    Rotary thrive so we can Serve to Change Lives.</p>
+                                                    <p>Kindest regards,</p>
+                                                    <p>Shekhar MehtaRotary International President 2022-2023</p>
+                                                <a href="#" class="btn  float-btn color2-bg">Visit Website<i class="fal fa-chevron-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <!-- list-single-main-item end -->                                    
+                                        <!-- list-main-wrap-header-->
+                                        
+                                        <!-- list-main-wrap-header end-->                            
+                                        <!-- listing-item-container -->
+                                        
+                                        <!-- listing-item-container end -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <!--box-widget-item -->
+                                        <div class="box-widget-item fl-wrap block_box">
+                                            <div class="box-widget-item-header">
+                                                <h3>About Athor </h3>
+                                            </div>
+                                            <div class="box-widget">
+                                                <div class="box-widget-author fl-wrap">
+                                                    <div class="box-widget-author-title">
+                                                        <div class="box-widget-author-title-img">
+                                                            <img src="./Rotary_Images/Rotary_Images/Shekhar Metha.jpg" alt=""> 
+                                                        </div>
+                                                        <div class="box-widget-author-title_content">
+                                                            <a href="user-single.html">RI President Shekar Mehta's</a>
+                                                            <span>4 Places Hosted</span>
+                                                        </div>
+                                                        <div class="box-widget-author-title_opt">
+                                                            <a href="#" class="tolt color-bg cwb" data-microtip-position="top" data-tooltip="Chat With Owner"><i class="fas fa-comments-alt"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--box-widget-item end -->                                    
+                                        <!--box-widget-item -->                                       
+                                        <div class="box-widget-item fl-wrap block_box">
+                                            <div class="box-widget-item-header">
+                                                <h3>User Contacts  </h3>
+                                            </div>
+                                            <div class="box-widget">
+                                                <div class="box-widget-content bwc-nopad">
+                                                    <div class="list-author-widget-contacts list-item-widget-contacts bwc-padside">
+                                                        <ul class="no-list-style">
+                                                            <li><span><i class="fal fa-map-marker"></i> Adress :</span> <a href="#">Pune, India</a></li>
+                                                            <li><span><i class="fal fa-phone"></i> Phone :</span> <a href="#">9890845263</a></li>
+                                                            <li><span><i class="fal fa-envelope"></i> Mail :</span> <a href="#">ShekarMehta@gmail.com</a></li>
+                                                            <li><span><i class="fal fa-browser"></i> Website :</span> <a href="#">ShekarMehta.net</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="list-widget-social bottom-bcw-box  fl-wrap">
+                                                        <ul class="no-list-style">
+                                                            <li><a href="#" target="_blank" ><i class="fab fa-facebook-f"></i></a></li>
+                                                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                            <li><a href="#" target="_blank" ><i class="fab fa-vk"></i></a></li>
+                                                            <li><a href="#" target="_blank" ><i class="fab fa-instagram"></i></a></li>
+                                                        </ul>
+                                                        <div class="bottom-bcw-box_link"><a href="#" class="show-single-contactform tolt" data-microtip-position="top" data-tooltip="Write Message"><i class="fal fa-envelope"></i></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--box-widget-item end -->                                     
+                                        <!--box-widget-item -->
+                                        <!-- <div class="box-widget-item fl-wrap block_box">
+                                            <div class="box-widget-item-header">
+                                                <h3>Get in Touch </h3>
+                                            </div>
+                                            <div class="box-widget">
+                                                <div class="box-widget-content">
+                                                    <form   class="add-comment custom-form">
+                                                        <fieldset>
+                                                            <label><i class="fal fa-user"></i></label>
+                                                            <input type="text" placeholder="Your Name *" value=""/>
+                                                            <div class="clearfix"></div>
+                                                            <label><i class="fal fa-envelope"></i>  </label>
+                                                            <input type="text" placeholder="Email Address*" value=""/>
+                                                            <textarea cols="40" rows="3" placeholder="Additional Information:"></textarea>
+                                                        </fieldset>
+                                                        <button class="btn float-btn color2-bg">Send Message<i class="fal fa-paper-plane"></i></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <!--box-widget-item end -->                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!--content end-->
+            </div>
+            <!-- wrapper end-->
+             <!--footer -->
+        <footer class="main-footer fl-wrap">
+            <!-- footer-header-->
+            <div class="footer-header fl-wrap grad ient-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div  class="subscribe-header">
+                                <h3>Be the first to know about the latest</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="subscribe-widget">
+                                <div class="subcribe-form">
+                                    <form id="subscribe">
+                                        <input class="enteremail fl-wrap" name="email" id="subscribe-email" placeholder="Enter Your Email" spellcheck="false" type="text">
+                                        <button type="submit" id="subscribe-button" class="subscribe-button"><i class="fal fa-envelope"></i></button>
+                                        <label for="subscribe-email" class="subscribe-message"></label>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-header end-->
+            <!--footer-inner-->
+            <div class="footer-inner   fl-wrap">
+                <div class="container">
+                    <div class="row">
+                        <!-- footer-widget-->
+                        <div class="col-md-4">
+                            <div class="footer-widget fl-wrap">
+                                <!-- <div class="footer-logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div> -->
+                                <div class="footer-contacts-widget fl-wrap">
+                                    <div class="col-md-5">
+                                        <div  class="subscribe-header">
+                                            <h3>Not Just One Day But All Year Round! <br>
+                                                Rotary Supports <span> YOUTH</span></h3>
+                                        </div>
+                                    </div>
+                                    <div class="footer-social">
+                                        <span>Find  us on: </span>
+                                        <ul class="no-list-style">
+                                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                            <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- footer-widget end
+                        
+                        <!-- footer-widget  -->
+                        <div class="col-md-4">
+                            <div class="footer-widget fl-wrap ">
+                                <h3>Helpful links</h3>
+                                    <ul class="footer-list fl-wrap">
+                                        <li><a href="about.html">About Our Company</a></li>
+                                        <li><a href="blog.html">Our last News</a></li>
+                                        <li><a href="pricing-tables.html">Pricing Plans</a></li>
+                                        <li><a href="help.html">Help Center</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-widget fl-wrap ">
+                                <h3>RSL - Perfect Solution Provider</h3>
+                                    <p class="rsl">You may not have heard of RSL yet, but there is a very strong chance you have heard all about our clients. Our custom coded Mobile solutions include everything from complete platform systems to modular feature upgrades and solution consulting for the business. We don't sell applications, we create applications that customers need.</p>
+                            </div>
+                        </div>
+                        <!-- footer-widget end-->
+                        <!-- footer-widget  -->
+                        <!-- footer-widget end-->
+                    </div>
+                </div>
+                <!-- footer bg-->
+                <div class="footer-bg" data-ran="4"></div>
+                <div class="footer-wave">
+                    <svg viewbox="0 0 100 25">
+                        <path fill="#fff" d="M0 30 V12 Q30 17 55 12 T100 11 V30z" />
+                    </svg>
+                </div>
+                <!-- footer bg  end-->
+            </div>
+            <!--footer-inner end -->
+            <!--sub-footer-->
+            <div class="sub-footer  fl-wrap">
+                <div class="container">
+                    <div class="copyright sub-footer-txt"> &#169; RSL Solution Private Limited. All rights reserved.</div>
+                    
+                    <div class="subfooter-nav">
+                        <ul class="no-list-style sub-footer-txt">
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--sub-footer end -->
+        </footer>
+        <!--footer end -->  
+            <!--map-modal -->
+            <div class="map-modal-wrap">
+                <div class="map-modal-wrap-overlay"></div>
+                <div class="map-modal-item">
+                    <div class="map-modal-container fl-wrap">
+                        <div class="map-modal fl-wrap">
+                            <div id="singleMap" data-latitude="40.7" data-longitude="-73.1"></div>
+                        </div>
+                        <h3><span>Location for : </span><a href="#">Listing Title</a></h3>
+                        <div class="map-modal-close"><i class="fal fa-times"></i></div>
+                    </div>
+                </div>
+            </div>
+            <!--map-modal end -->                
+            <!--chat-widget -->
+        <!--<div class="chat-widget-button cwb tolt" data-microtip-position="left" data-tooltip="Chat With Owner"><i class="fal fa-comments-alt"></i></div>
+            <div class="chat-widget_wrap not-vis-chat">
+                <div class="chat-widget_header">
+                    <h3>Chat with  <a href="author-single.html"> Alisa Noory</a></h3>
+                    <div class="status st_online"><span></span>Online</div>
+                </div>
+                <div class="chat-body" data-simplebar>-->
+                    <!-- message--> 
+                    <!--<div class="chat-message chat-message_guest fl-wrap">
+                        <div class="dashboard-message-avatar">
+                            <img src="images/avatar/1.jpg" alt="">
+                        </div>
+                        <span class="chat-message-user-name">Jessie</span>
+                        <span class="massage-date">25 may 2018  <span>7.51 PM</span></span>
+                        <p>Vivamus lobortis vel nibh nec maximus. Donec dolor erat, rutrum ut feugiat sed, ornare vitae nunc. </p>
+                    </div>-->
+                    <!-- message end-->
+                    <!-- message--> 
+                   <!-- <div class="chat-message chat-message_user fl-wrap">
+                        <div class="dashboard-message-avatar">
+                            <img src="images/avatar/1.jpg" alt="">
+                        </div>
+                        <span class="chat-message-user-name">Alica</span>
+                        <span class="massage-date">25 may 2018  <span>7.51 PM</span></span>
+                        <p>Nulla eget erat consequat quam feugiat dapibus eget sed mauris.</p>
+                    </div>-->
+                    <!-- message end-->                                             
+                    <!-- message--> 
+                    <!--<div class="chat-message chat-message_guest fl-wrap">
+                        <div class="dashboard-message-avatar">
+                            <img src="images/avatar/1.jpg" alt="">
+                        </div>
+                        <span class="chat-message-user-name">Jessie</span>
+                        <span class="massage-date">25 may 2018  <span>7.51 PM</span></span>
+                        <p>Sed non neque faucibus, condimentum lectus at, accumsan enim. Fusce pretium egestas cursus..</p>
+                    </div>-->
+                    <!-- message end--> 
+                <!--</div>
+                <div class="chat-widget_input fl-wrap">
+                    <textarea  placeholder="Type Message"></textarea>                                                 
+                    <button type="submit"><i class="fal fa-paper-plane"></i></button>
+                </div>
+            </div>-->
+            <!--chat-widget end -->              
+        <!--register form -->
+        <div class="main-register-wrap modal">
+            <div class="reg-overlay"></div>
+            <div class="main-register-holder tabs-act">
+                <div class="main-register fl-wrap  modal_main">
+                    <div class="close-reg"><i class="fal fa-times"></i></div>
+                    <ul class="tabs-menu fl-wrap no-list-style">
+                        <li class="current"><a href="#tab-1"><i class="fal fa-sign-in-alt"></i> Login</a></li>
+                        <li><a href="#tab-2"><i class="fal fa-user-plus"></i> Register</a></li>
+                    </ul>
+                    <!--tabs -->
+                    <div class="tabs-container">
+                        <div class="tab">
+                            <!--tab -->
+                            <div id="tab-1" class="tab-content first-tab">
+                                <div class="custom-form">
+                                    <!-- <form method="post" name="registerform"> -->
+                                    <div class="loginWithOTP">
+                                        <label>Phone No or Email Address <span style="color: red;">*</span> </label>
+                                        <input name="email" type="text" onClick="this.select()" value="">
+                                        <label>Password <span style="color: red;">*</span> </label>
+                                        <input name="password" type="password" onClick="this.select()" value="">
+                                        <button class="btn float-btn color2-bg" id="enterbutton"> Enter </button>
+                                        <div id="showDiv">
+                                            <input type="text" id="myInput" placeholder="Enter otp to Verify"
+                                                style="margin-top: 3rem;">
+                                            <button class="btn float-btn color2-bg" id="myButton">Verify</button>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+
+                                    <div class="filter-tags">
+                                        <input id="check-a3" type="checkbox" name="check">
+                                        <label for="check-a3">Remember me</label>
+
+                                    </div>
+                                    <div class="lost_password">
+                                        <a href="#">Lost Your Password?</a>
+                                    </div>
+                                    <!-- </form> -->
+
+                                </div>
+                            </div>
+                            <!--tab end -->
+                            <!--tab -->
+                            <div class="tab">
+                                <div id="tab-2" class="tab-content">
+                                    <div class="custom-form">
+                                        <form method="post" name="registerform" class="main-register-form"
+                                            id="main-register-form2">
+                                            <div>
+                                                <label>Full Name <span style="color: red;">*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>Email Address <span style="color: red;">*</span></label>
+                                                <input name="email" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>Company Name <span style="color: red;">*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>Designation <span style="color: red;">*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>Club Name <span style="color: red;">*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>Spouse Name</label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>DOB <span style="color: red;">*</span> </label>
+                                                <input name="date" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>Marrage Anniversary Date</label>
+                                                <input name="date" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>Address <span style="color: red;">*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>City <span style="color: red;">*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>Pincode <span style="color: red;">*</span> </label>
+                                                <input name="name" type="text" onClick="this.select()" value="">
+                                            </div>
+                                            <div>
+                                                <label>Phone No <span style="color: red;">*</span> </label>
+                                                <input name="tel" type="text" onClick="this.select()" value="">
+                                            </div>
+
+
+
+                                        </form>
+
+                                        <body onload="generate()">
+                                            <div id="user-input" class="inline">
+                                                <label for="Capcha code">Enter Captcha Here <span style="color: red;">*</span></label>
+                                                <input type="text" id="submit" placeholder="Captcha code" />
+                                            </div>
+
+
+                                            <div id="image" class="inline" selectable="False">
+                                            </div>
+                                            <div class="inline" onclick="generate()">
+                                                <i class="fas fa-sync"></i>
+                                            </div>
+                                            <input type="submit" id="btn" onclick="printmsg()" />
+
+                                            <p id="key"></p>
+
+                                        </body>
+                                        <div class="filter-tags ft-list" style="display:flex">
+                                            <input id="check-a2" type="checkbox" name="check">
+                                            <label for="check-a2">I agree to the <a href="#">Privacy
+                                                    Policy</a></label>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="filter-tags ft-list" style="display: flex;">
+                                            <input id="check-a" type="checkbox" name="check">
+                                            <label for="check-a">I agree to the <a href="#">Terms and
+                                                    Conditions</a></label>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <button type="submit" class="btn float-btn color2-bg"> Register <i
+                                                class="fas fa-caret-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tab end -->
+                        </div>
+                        <!--tabs end -->
+
+
+
+                        <div class="wave-bg">
+                            <div class='wave -one' style="top: 35%;"></div>
+                            <!-- <div class='wave -two'></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--register form end -->
+            <a class="to-top"><i class="fas fa-caret-up"></i></a>     
+        </div>
+        <!-- Main end -->
+        <!--=============== scripts  ===============-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/scripts.js"></script>
+        <script>
+            // read more js
+            $(document).ready(function () {
+    
+                $('[data-toggle="collapse"]').click(function () {
+                    $(this).toggleClass("active");
+                    if ($(this).hasClass("active")) {
+                        $(this).text("Hide");
+                    } else {
+                        $(this).text("Read More");
+                    }
+                });
+            });
+    
+            let captcha;
+    
+            function generate() {
+    
+                // Clear old input
+                document.getElementById("submit").value = "";
+    
+                // Access the element to store
+                // the generated captcha
+                captcha = document.getElementById("image");
+                let uniquechar = "";
+    
+                const randomchar =
+                    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    
+                // Generate captcha for length of
+                // 5 with random character
+                for (let i = 1; i < 5; i++) {
+                    uniquechar += randomchar.charAt(
+                        Math.random() * randomchar.length)
+                }
+    
+                // Store generated input
+                captcha.innerHTML = uniquechar;
+            }
+    
+            function printmsg() {
+                const usr_input = document
+                    .getElementById("submit").value;
+    
+                // Check whether the input is equal
+                // to generated captcha or not
+                if (usr_input == captcha.innerHTML) {
+                    let s = document.getElementById("key")
+                        .innerHTML = "Matched";
+                    generate();
+                } else {
+                    let s = document.getElementById("key")
+                        .innerHTML = "not Matched";
+                    generate();
+                }
+            }
+        </script>
+    </body>
+</html>

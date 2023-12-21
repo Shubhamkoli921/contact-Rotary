@@ -17,7 +17,7 @@
     <link type="text/css" rel="stylesheet" href="css/color.css">
     <!--=============== favicons ===============-->
     <link rel="shortcut icon" href="images/favicon.ico">
-    <script src="https://kit.fontawesome.com/4a58583c66.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4a58583c66.js" crossorigin="anonymous"></script>f
 </head>
 
 <body>
@@ -81,7 +81,8 @@
                             <a href="#">Committess <i class="fa fa-caret-down"></i></a>
                             <!--second level -->
                             <ul>
-                                <li><a href="listing6.html">Rotary Clubs</a></li>
+                                <li><a href="listing5.html">Committess</a></li>
+                                <li><a href="listing.html">Rotary Clubs</a></li>
                                 <li><a href="dashboard.html">District Administrations</a></li>
 
                             </ul>
@@ -105,7 +106,7 @@
 
                                 <li><a href="about.html">About DG</a></li>
                                 <li><a href="contacts.html">Contacts US</a></li>
-                                <li><a href="listing2.html">Fond Memories</a></li>
+                                <li><a href="listing.html">Fond Memories</a></li>
                             </ul>
                             <!--second level end-->
                         </li>
@@ -121,7 +122,7 @@
                         <!-- header-search-input -->
                         <div class="header-search-input">
                             <label><i class="fal fa-keyboard"></i></label>
-                            <input type="text" placeholder="What are you looking for ?" value="" />
+                            <input type="text" placeholder="Search Name ?" value="" />
                         </div>
                         <!-- header-search-input end -->
                         <!-- header-search-input -->
@@ -135,7 +136,7 @@
                         <!-- header-search-input -->
                         <div class="header-search-input header-search_selectinpt ">
                             <select data-placeholder="Category" class="chosen-select no-radius">
-                                <option>All Categories</option>
+                                <option>Search Club Name</option>
                                 <option>All Categories</option>
                                 <option>Shops</option>
                                 <option>Hotels</option>
@@ -232,51 +233,177 @@
             <!-- content-->
             <div class="content">
                 <!-- Map -->
-                <!--section  -->
-                <section class="hero-section" data-scrollax-parent="true">
-                    <div class="bg-tabs-wrap">
-                        <div class="bg-parallax-wrap" data-scrollax="properties: { translateY: '200px' }">
-                            <div class="bg bg_tabs" data-bg="images/logo5.jpg"></div>
-                            <div class="overlay op7"></div>
-                        </div>
+               <!--section  -->  
+               <section class="hero-section" data-scrollax-parent="true">
+                <div class="bg-tabs-wrap">
+                    <div class="bg-parallax-wrap" data-scrollax="properties: { translateY: '200px' }">
+                        <div class="bg bg_tabs" data-bg="images/event.png"></div>
+                        <div class="overlay op7"></div>
                     </div>
-                    <div class="container small-container">
-                        <div class="intro-item fl-wrap">
-                            <span class="section-separator"></span>
-                            <div class="bubbles">
-                                <h1></h1>
+                </div>
+                <div class="container small-container">
+                    <div class="intro-item fl-wrap">
+                        <span class="section-separator"></span>
+                        <div class="bubbles">
+                            <h1>Service About Self</h1>
+                        </div>
+                        <h3></h3>
+                    </div>
+                    <!-- main-search-input-tabs-->
+                    <div class="main-search-input-tabs  tabs-act fl-wrap">
+                        <ul class="tabs-menu change_bg no-list-style">
+                            <!-- <li class="current"><a href="#tab-inpt1" data-bgtab="images/bg/hero/1.jpg"> Places</a></li>
+                                        <li><a href="#tab-inpt2" data-bgtab="images/bg/hero/1.jpg"> Events</a></li>
+                                        <li><a href="#tab-inpt3" data-bgtab="images/bg/hero/1.jpg"> Restaurants</a></li>
+                                        <li><a href="#tab-inpt4" data-bgtab="images/bg/hero/1.jpg"> Hotels</a></li> -->
+                        </ul>
+                        <!--tabs -->
+                        <div class="tabs-container fl-wrap  ">
+                            <!--tab -->
+                            <div class="tab">
+                                <div id="tab-inpt1" class="tab-content first-tab">
+                                    <div class="main-search-input-wrap fl-wrap">
+                                        <div class="main-search-input fl-wrap">
+                                            <div class="main-search-input-item">
+                                                <label><i class="fal fa-keyboard"></i></label>
+                                                <input type="text" placeholder="What are you looking for?"
+                                                    value="" />
+                                            </div>
+                                            <div class="main-search-input-item location autocomplete-container">
+                                                <label><i class="fal fa-map-marker-check"></i></label>
+                                                <input type="text" placeholder="Location" class="autocomplete-input"
+                                                    id="autocompleteid" value="" />
+                                                <a href="#"><i class="fa fa-dot-circle-o"></i></a>
+                                            </div>
+                                            <div class="main-search-input-item">
+                                                <select data-placeholder="All Categories" class="chosen-select">
+                                                    <option>All Categories</option>
+                                                    <option>Shops</option>
+                                                    <option>Hotels</option>
+                                                    <option>Restaurants</option>
+                                                    <option>Fitness</option>
+                                                    <option>Events</option>
+                                                </select>
+                                            </div>
+                                            <button class="main-search-button color2-bg"
+                                                onclick="window.location.href='listing.html'">Search <i
+                                                    class="far fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <h3></h3>
+                            <!--tab end-->
+                            <!--tab -->
+                            <div class="tab">
+                                <div id="tab-inpt2" class="tab-content">
+                                    <div class="main-search-input-wrap fl-wrap">
+                                        <div class="main-search-input fl-wrap">
+                                            <div class="main-search-input-item">
+                                                <label><i class="fal fa-handshake-alt"></i></label>
+                                                <input type="text" placeholder="Event Name or Place" value="" />
+                                            </div>
+                                            <div class="main-search-input-item">
+                                                <select data-placeholder="Loaction" class="chosen-select on-radius">
+                                                    <option>All Cities</option>
+                                                    <option>New York</option>
+                                                    <option>London</option>
+                                                    <option>Paris</option>
+                                                    <option>Kiev</option>
+                                                    <option>Moscow</option>
+                                                    <option>Dubai</option>
+                                                    <option>Rome</option>
+                                                    <option>Beijing</option>
+                                                </select>
+                                            </div>
+                                            <div class="main-search-input-item clact date-container">
+                                                <span class="iconn-dec"><i class="fal fa-calendar"></i></span>
+                                                <input type="text" placeholder="Event Date" name="datepicker-here"
+                                                    value="" />
+                                                <span class="clear-singleinput"><i class="fal fa-times"></i></span>
+                                            </div>
+                                            <button class="main-search-button color2-bg"
+                                                onclick="window.location.href='listing.html'">Search <i
+                                                    class="far fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tab end-->
+                            <!--tab -->
+                            <div class="tab">
+                                <div id="tab-inpt3" class="tab-content">
+                                    <div class="main-search-input-wrap fl-wrap">
+                                        <div class="main-search-input fl-wrap">
+                                            <div class="main-search-input-item">
+                                                <label><i class="fal fa-cheeseburger"></i></label>
+                                                <input type="text" placeholder="Restaurant Name" value="" />
+                                            </div>
+                                            <div class="main-search-input-item clact date-container">
+                                                <span class="iconn-dec"><i class="fal fa-calendar"></i></span>
+                                                <input type="text" placeholder="Date and Time"
+                                                    name="datepicker-here-time" value="" />
+                                                <span class="clear-singleinput"><i class="fal fa-times"></i></span>
+                                            </div>
+                                            <div class="main-search-input-item">
+                                                <label><i class="fal fa-user-friends"></i></label>
+                                                <input type="number" placeholder="Persons" value="" />
+                                            </div>
+                                            <button class="main-search-button color2-bg"
+                                                onclick="window.location.href='listing.html'">Search <i
+                                                    class="far fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tab end-->
+                            <!--tab -->
+                            <div class="tab">
+                                <div id="tab-inpt4" class="tab-content">
+                                    <div class="main-search-input-wrap fl-wrap">
+                                        <div class="main-search-input fl-wrap">
+                                            <div class="main-search-input-item">
+                                                <label><i class="fal fa-cheeseburger"></i></label>
+                                                <input type="text" placeholder="Hotel Name" value="" />
+                                            </div>
+                                            <div class="main-search-input-item">
+                                                <label><i class="fal fa-user-friends"></i></label>
+                                                <input type="number" placeholder="Persons" value="" />
+                                            </div>
+                                            <div
+                                                class="main-search-input-item clact date-container3 daterangepicker_big">
+                                                <span class="iconn-dec"><i class="fal fa-calendar"></i></span>
+                                                <input type="text" placeholder="Date In Out" name="dates"
+                                                    value="" />
+                                                <span class="clear-singleinput"><i class="fal fa-times"></i></span>
+                                            </div>
+                                            <button class="main-search-button color2-bg"
+                                                onclick="window.location.href='listing.html'">Search <i
+                                                    class="far fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tab end-->
                         </div>
-                        <!-- main-search-input-tabs-->
-                        <div class="main-search-input-tabs  tabs-act fl-wrap">
-                            <ul class="tabs-menu change_bg no-list-style">
-                                <!-- <li class="current"><a href="#tab-inpt1" data-bgtab="images/bg/hero/1.jpg"> Places</a></li>
-                                            <li><a href="#tab-inpt2" data-bgtab="images/bg/hero/1.jpg"> Events</a></li>
-                                            <li><a href="#tab-inpt3" data-bgtab="images/bg/hero/1.jpg"> Restaurants</a></li>
-                                            <li><a href="#tab-inpt4" data-bgtab="images/bg/hero/1.jpg"> Hotels</a></li> -->
-                            </ul>
-                            <!--tabs -->
-                            
-                            <!--tabs end-->
-                        </div>
-                        <!-- main-search-input-tabs end-->
-                        <div class="hero-categories fl-wrap">
-                            <h4 class="hero-categories_title"></h4>
-                            <ul class="no-list-style">
-                                <li><a href="listing.html"><i></i><span></span></a></li>
-                                <li><a href="listing.html"><i></i><span></span></a></li>
-                                <li><a href="listing.html"><i></i><span></span></a></li>
-                                <li><a href="listing.html"><i></i><span></span></a></li>
-                                <li><a href="listing.html"><i></i><span></span></a></li>
-                            </ul>
-                        </div>
+                        <!--tabs end-->
                     </div>
-                    <div class="header-sec-link">
-                        <a href="#sec1" class="custom-scroll-link"><i class="fal fa-angle-double-down"></i></a>
+                    <!-- main-search-input-tabs end-->
+                    <div class="hero-categories fl-wrap">
+                        <h4 class="hero-categories_title"></h4>
+                        <ul class="no-list-style">
+                            <li><a href="listing.html"><i></i><span></span></a></li>
+                            <li><a href="listing.html"><i></i><span></span></a></li>
+                            <li><a href="listing.html"><i></i><span></span></a></li>
+                            <li><a href="listing.html"><i></i><span></span></a></li>
+                            <li><a href="listing.html"><i></i><span></span></a></li>
+                        </ul>
                     </div>
-                </section>
-                <!--section end-->
+                </div>
+                <div class="header-sec-link">
+                    <a href="#sec1" class="custom-scroll-link"><i class="fal fa-angle-double-down"></i></a>
+                </div>
+            </section>
+            <!--section end--> 
 
                 <!-- Map end -->
                 <div class="col-list novis_to-top">
@@ -464,272 +591,213 @@
                             </div>
                         </div>
                         <!-- listing-item-container end -->
+                    </div>
+
+                    <section id="sec3">
+                        <div class="container">
+                            <div class="section-title">
+                                <h2> Our Team</h2>
+                                <span class="section-separator"></span>
+                            </div>
+                            <div class="about-wrap team-box2 fl-wrap">
+                                <!-- team-item -->
+                                <div class="team-box">
+                                    <div class="team-photo">
+                                        <img src="photos/photos/DG Pankaj Shah.jpg" alt="" class="respimg">
+                                    </div>
+                                    <div class="team-info fl-wrap">
+                                        <div class="geodir-category-content fl-wrap title-sin_item">
+                                            <div class="geodir-category-content-title fl-wrap">
+                                                <div class="geodir-category-content-title-item">
+                                                    <h3 class="title-sin_map"><a href="listing-single.html">Pankaj Shah</a><span class="verified-badge"><i
+                                                                class="fal fa-check"></i></span></h3>
+                                                    <div class="geodir-category-location fl-wrap"><a
+                                                            href="#"></i>District Governor</a></div>
+                                                </div>
+                                            </div>
+
+                                            
+                                            <!-- <div class="geodir-category-text fl-wrap">
+                                                <p class="small-text"><i class="fa-solid fa-location-dot" style="margin-right: 10px;"></i> RC Shivaginar</p>
+                                                <p><i class="fa-solid fa-chalkboard-user" style="margin-right: 10px;"></i> Journalism</p>
+                                                <p><i class="fa-solid fa-cake-candles" style="margin-right: 10px;"></i> 19/05/2002</p>
+                                                <p><i class="fa-solid fa-phone" style="margin-right: 10px;"></i> 1234567890</p>
+                                                <p><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i> mukund32@gmail.com</p>
+
+                                            </div> -->
+                                        </div>
+                                        <!-- <div class="team-social">
+                                            <ul class="no-list-style">
+                                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                            </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <!-- team-item  end-->
+                                <!-- team-item -->
+                                <div class="team-box">
+                                    <div class="team-photo">
+                                        <img src="photos/photos/DGE Anil parmar.jpg" alt="" class="respimg">
+                                    </div>
+                                    <div class="team-info fl-wrap">
+                                        <div class="geodir-category-content fl-wrap title-sin_item">
+                                            <div class="geodir-category-content-title fl-wrap">
+                                                <div class="geodir-category-content-title-item">
+                                                    <h3 class="title-sin_map"><a href="listing-single.html">Anil Parmar
+                                                            </a><span class="verified-badge"><i
+                                                                class="fal fa-check"></i></span></h3>
+                                                    <div class="geodir-category-location fl-wrap"><a
+                                                            href="#"></i>District Governor Elect</a></div>
+                                                </div>
+                                            </div>
+
+                                            
+                                            <!-- <div class="geodir-category-text fl-wrap">
+                                                <p class="small-text"><i class="fa-solid fa-location-dot" style="margin-right: 10px;"></i> RC Shivaginar</p>
+                                                <p><i class="fa-solid fa-chalkboard-user" style="margin-right: 10px;"></i> Journalism</p>
+                                                <p><i class="fa-solid fa-cake-candles" style="margin-right: 10px;"></i> 19/05/2002</p>
+                                                <p><i class="fa-solid fa-phone" style="margin-right: 10px;"></i> 1234567890</p>
+                                                <p><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i> mukund32@gmail.com</p>
+
+                                            </div> -->
+                                        </div>
+                                        <!-- <div class="team-social">
+                                            <ul class="no-list-style">
+                                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                            </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <!-- team-item end  -->
+                                <!-- team-item -->
+                                <div class="team-box">
+                                    <div class="team-photo">
+                                        <img src="photos/photos/dg-manjoo-phadke.jpg" alt="" class="respimg">
+                                    </div>
+                                    <div class="team-info fl-wrap">
+                                        <div class="geodir-category-content fl-wrap title-sin_item">
+                                            <div class="geodir-category-content-title fl-wrap">
+                                                <div class="geodir-category-content-title-item">
+                                                    <h3 class="title-sin_map"><a href="listing-single.html">Manjoo Phadke 
+                                                            </a><span class="verified-badge"><i
+                                                                class="fal fa-check"></i></span></h3>
+                                                    <div class="geodir-category-location fl-wrap"><a
+                                                            href="#"></i>District Governor Nominee</a></div>
+                                                </div>
+                                            </div>
+
+                                            
+                                            <!-- <div class="geodir-category-text fl-wrap">
+                                                <p class="small-text"><i class="fa-solid fa-location-dot" style="margin-right: 10px;"></i> RC Shivaginar</p>
+                                                <p><i class="fa-solid fa-chalkboard-user" style="margin-right: 10px;"></i> Journalism</p>
+                                                <p><i class="fa-solid fa-cake-candles" style="makrgin-right: 10px;"></i> 19/05/2002</p>
+                                                <p><i class="fa-solid fa-phone" style="margin-right: 10px;"></i> 1234567890</p>
+                                                <p><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i> mukund32@gmail.com</p>
+
+                                            </div> -->
+                                        </div>
+                                        <!-- <div class="team-social">
+                                            <ul class="no-list-style">
+                                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                            </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="team-box">
+                                    <div class="team-photo">
+                                        <img src="./photos/photos/PDG Dr Shailesh Palekar.jpg" alt="" class="respimg">
+                                    </div>
+                                    <div class="team-info fl-wrap">
+                                        <div class="geodir-category-content fl-wrap title-sin_item">
+                                            <div class="geodir-category-content-title fl-wrap">
+                                                <div class="geodir-category-content-title-item">
+                                                    <h3 class="title-sin_map"><a href="listing-single.html">Shailesh Palekar
+                                                            </a><span class="verified-badge"><i
+                                                                class="fal fa-check"></i></span></h3>
+                                                    <div class="geodir-category-location fl-wrap"><a
+                                                            href="#"></i>District Trainee</a></div>
+                                                </div>
+                                            </div>
+
+                                            
+                                            <!-- <div class="geodir-category-text fl-wrap">
+                                                <p class="small-text"><i class="fa-solid fa-location-dot" style="margin-right: 10px;"></i> RC Shivaginar</p>
+                                                <p><i class="fa-solid fa-chalkboard-user" style="margin-right: 10px;"></i> Journalism</p>
+                                                <p><i class="fa-solid fa-cake-candles" style="margin-right: 10px;"></i> 19/05/2002</p>
+                                                <p><i class="fa-solid fa-phone" style="margin-right: 10px;"></i> 1234567890</p>
+                                                <p><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i> mukund32@gmail.com</p>
+
+                                            </div> -->
+                                        </div>
+                                        <!-- <div class="team-social">
+                                            <ul class="no-list-style">
+                                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                            </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <!-- team-item end  -->
+                            </div>
+                        </div>
+                        <div class="waveWrapper waveAnimation">
+                          <div class="waveWrapperInner bgMiddle">
+                            <div class="wave-bg-anim waveMiddle" style="background-image: url('images/wave-top.png')"></div>
+                          </div>
+                          <div class="waveWrapperInner bgBottom">
+                            <div class="wave-bg-anim waveBottom" style="background-image: url('images/wave-top.png')"></div>
+                          </div>
+                        </div> 						
+                    </section>
+                    <div class="limit-box fl-wrap"></div>
                 </div>
 
-                <section>
-                    <div class="container big-container">
-                        <div class="section-title">
-                            <h2><span>Men Who Brought Rotary Into Being</span></h2>
-                            <div class="section-subtitle"></div>
+                <!--section  -->  
+                <section class="parallax-section" data-scrollax-parent="true" id="sec4">
+                    <div class="bg par-elem "  data-bg="images/fm.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
+                    <div class="overlay op7"></div>
+                    <!--container-->
+                    <div class="container">
+                        <div class="section-title center-align big-title">
+                            <h2><span>Enhance Rotary's Public Image</span></h2>
                             <span class="section-separator"></span>
-
-                        </div>
-                        <div class="grid-item-holder gallery-items fl-wrap">
-                            <!--  gallery-item-->
-                            <div class="gallery-item restaurant events">
-                                <!-- listing-item  -->
-                                <div class="listing-item" style="box-shadow: 1px 0px 3px 0px grey;border-radius:8px">
-                                    <article class="geodir-category-listing fl-wrap">
-                                        <div class="geodir-category-img">
-                                            <a href="listing-single.html" class="geodir-category-img-wrap fl-wrap">
-                                            <img src="./photos/photos/vikram.jpeg" alt=""> 
-                                            </a>
-                                            
-                                        </div>
-                                        <div class="geodir-category-content fl-wrap title-sin_item">
-                                            <div class="geodir-category-content-title fl-wrap">
-                                                <div class="geodir-category-content-title-item">
-                                                    <h3 class="title-sin_map"><a href="listing-single.html">Vikram </a><span class="verified-badge"><i class="fal fa-check"></i></span></h3>
-                                                    <div class="geodir-category-location fl-wrap"><a href="#" ><i class="fas fa-map-marker-alt"></i> Rotary Club Walhekarwadi</a></div>
-                                                    <div class="geodir-category-location fl-wrap"><a href="#" ><i class="fa-solid fa-user-tie"></i> District Governer</a></div>
-                                                </div>
-                                            </div>
-                                            <div class="geodir-category-text fl-wrap">
-                                                <p class="small-text">Sed interdum metus at nisi tempor laoreet. Integer gravida orci a justo sodales. <a href="#" style="color: grey;">Read More..</a></p>
-                                                
-                                            </div>
-                                            <div class="geodir-category-footer fl-wrap">
-                                                <a class="listing-item-category-wrap">
-                                                    <span>Contact</span>
-                                                </a>
-                                                <div class="geodir-opt-list">
-                                                    <ul class="no-list-style">
-                                                        <li><a href="#" class="show_gcc"><i class="fal fa-envelope"></i><span class="geodir-opt-tooltip">Contact Info</span></a></li>
-                                                        <li><a href="#1" class="single-map-item" data-newlatitude="40.72956781" data-newlongitude="-73.99726866"><i class="fal fa-map-marker-alt"></i><span class="geodir-opt-tooltip">On the map <strong>1</strong></span> </a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                                <div class="geodir-category_contacts">
-                                                    <div class="close_gcc"><i class="fal fa-times-circle"></i></div>
-                                                    <ul class="no-list-style">
-                                                        <li><span><i class="fal fa-phone"></i> Call : </span><a href="#">+38099231212</a></li>
-                                                        <li><span><i class="fal fa-envelope"></i> Write : </span><a href="#">yourmail@domain.com</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <!-- listing-item end -->                              
-                            </div>
-                            <!-- gallery-item  end-->
-                            <!--  gallery-item-->
-                            <div class="gallery-item restaurant events">
-                                <!-- listing-item  -->
-                                <div class="listing-item" style="box-shadow: 1px 0px 3px 0px grey;border-radius:8px">
-                                    <article class="geodir-category-listing fl-wrap">
-                                        <div class="geodir-category-img">
-                                            <a href="listing-single.html" class="geodir-category-img-wrap fl-wrap">
-                                            <img src="./photos/photos/dg-manjoo-phadke.jpg" alt=""> 
-                                            </a>
-                                            
-                                        </div>
-                                        <div class="geodir-category-content fl-wrap title-sin_item">
-                                            <div class="geodir-category-content-title fl-wrap">
-                                                <div class="geodir-category-content-title-item">
-                                                    <h3 class="title-sin_map"><a href="listing-single.html">Manjoo Phadke</a><span class="verified-badge"><i class="fal fa-check"></i></span></h3>
-                                                    <div class="geodir-category-location fl-wrap"><a href="#" ><i class="fas fa-map-marker-alt"></i> Rotary Club Walhekarwadi</a></div>
-                                                    <div class="geodir-category-location fl-wrap"><a href="#" ><i class="fa-solid fa-user-tie"></i> District Governer</a></div>
-                                                </div>
-                                            </div>
-                                            <div class="geodir-category-text fl-wrap">
-                                                <p class="small-text">Sed interdum metus at nisi tempor laoreet. Integer gravida orci a justo sodales. <a href="#" style="color: grey;">Read More..</a></p>
-                                                
-                                            </div>
-                                            <div class="geodir-category-footer fl-wrap">
-                                                <a class="listing-item-category-wrap">
-                                                    <span>Contact</span>
-                                                </a>
-                                                <div class="geodir-opt-list">
-                                                    <ul class="no-list-style">
-                                                        <li><a href="#" class="show_gcc"><i class="fal fa-envelope"></i><span class="geodir-opt-tooltip">Contact Info</span></a></li>
-                                                        <li><a href="#1" class="single-map-item" data-newlatitude="40.72956781" data-newlongitude="-73.99726866"><i class="fal fa-map-marker-alt"></i><span class="geodir-opt-tooltip">On the map <strong>1</strong></span> </a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                                <div class="geodir-category_contacts">
-                                                    <div class="close_gcc"><i class="fal fa-times-circle"></i></div>
-                                                    <ul class="no-list-style">
-                                                        <li><span><i class="fal fa-phone"></i> Call : </span><a href="#">+38099231212</a></li>
-                                                        <li><span><i class="fal fa-envelope"></i> Write : </span><a href="#">yourmail@domain.com</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <!-- listing-item end -->                              
-                            </div>
-                            <!-- gallery-item  end-->
-                            <!--  gallery-item-->
-                            <div class="gallery-item restaurant events">
-                                <!-- listing-item  -->
-                                <div class="listing-item" style="box-shadow: 1px 0px 3px 0px grey;border-radius:8px">
-                                    <article class="geodir-category-listing fl-wrap">
-                                        <div class="geodir-category-img">
-                                            <a href="listing-single.html" class="geodir-category-img-wrap fl-wrap">
-                                            <img src="./photos/photos/DGE Anil parmar.jpg" alt=""> 
-                                            </a>
-                                            
-                                        </div>
-                                        <div class="geodir-category-content fl-wrap title-sin_item">
-                                            <div class="geodir-category-content-title fl-wrap">
-                                                <div class="geodir-category-content-title-item">
-                                                    <h3 class="title-sin_map"><a href="listing-single.html">Anil Parmar</a><span class="verified-badge"><i class="fal fa-check"></i></span></h3>
-                                                    <div class="geodir-category-location fl-wrap"><a href="#" ><i class="fas fa-map-marker-alt"></i> Rotary Club Walhekarwadi</a></div>
-                                                    <div class="geodir-category-location fl-wrap"><a href="#" ><i class="fa-solid fa-user-tie"></i> District Governer</a></div>
-                                                </div>
-                                            </div>
-                                            <div class="geodir-category-text fl-wrap">
-                                                <p class="small-text">Sed interdum metus at nisi tempor laoreet. Integer gravida orci a justo sodales. <a href="#" style="color: grey;">Read More..</a></p>
-                                                
-                                            </div>
-                                            <div class="geodir-category-footer fl-wrap">
-                                                <a class="listing-item-category-wrap">
-                                                    <span>Contact</span>
-                                                </a>
-                                                <div class="geodir-opt-list">
-                                                    <ul class="no-list-style">
-                                                        <li><a href="#" class="show_gcc"><i class="fal fa-envelope"></i><span class="geodir-opt-tooltip">Contact Info</span></a></li>
-                                                        <li><a href="#1" class="single-map-item" data-newlatitude="40.72956781" data-newlongitude="-73.99726866"><i class="fal fa-map-marker-alt"></i><span class="geodir-opt-tooltip">On the map <strong>1</strong></span> </a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                                <div class="geodir-category_contacts">
-                                                    <div class="close_gcc"><i class="fal fa-times-circle"></i></div>
-                                                    <ul class="no-list-style">
-                                                        <li><span><i class="fal fa-phone"></i> Call : </span><a href="#">+38099231212</a></li>
-                                                        <li><span><i class="fal fa-envelope"></i> Write : </span><a href="#">yourmail@domain.com</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <!-- listing-item end -->                              
-                            </div>
-                            <!-- gallery-item  end-->
-                            <!--  gallery-item-->
-                            <div class="gallery-item restaurant events">
-                                <!-- listing-item  -->
-                                <div class="listing-item" style="box-shadow: 1px 0px 3px 0px grey;border-radius:8px">
-                                    <article class="geodir-category-listing fl-wrap">
-                                        <div class="geodir-category-img">
-                                            <a href="listing-single.html" class="geodir-category-img-wrap fl-wrap">
-                                            <img src="./photos/photos/DG Pankaj Shah.jpg" alt=""> 
-                                            </a>
-                                            
-                                        </div>
-                                        <div class="geodir-category-content fl-wrap title-sin_item">
-                                            <div class="geodir-category-content-title fl-wrap">
-                                                <div class="geodir-category-content-title-item">
-                                                    <h3 class="title-sin_map"><a href="listing-single.html">Pankaj Shah</a><span class="verified-badge"><i class="fal fa-check"></i></span></h3>
-                                                    <div class="geodir-category-location fl-wrap"><a href="#" ><i class="fas fa-map-marker-alt"></i> Rotary Club Walhekarwadi</a></div>
-                                                    <div class="geodir-category-location fl-wrap"><a href="#" ><i class="fa-solid fa-user-tie"></i> District Governer</a></div>
-                                                </div>
-                                            </div>
-                                            <div class="geodir-category-text fl-wrap">
-                                                <p class="small-text">Sed interdum metus at nisi tempor laoreet. Integer gravida orci a justo sodales. <a href="#" style="color: grey;">Read More..</a></p>
-                                                
-                                            </div>
-                                            <div class="geodir-category-footer fl-wrap">
-                                                <a class="listing-item-category-wrap">
-                                                    <span>Contact</span>
-                                                </a>
-                                                <div class="geodir-opt-list">
-                                                    <ul class="no-list-style">
-                                                        <li><a href="#" class="show_gcc"><i class="fal fa-envelope"></i><span class="geodir-opt-tooltip">Contact Info</span></a></li>
-                                                        <li><a href="#1" class="single-map-item" data-newlatitude="40.72956781" data-newlongitude="-73.99726866"><i class="fal fa-map-marker-alt"></i><span class="geodir-opt-tooltip">On the map <strong>1</strong></span> </a></li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                                <div class="geodir-category_contacts">
-                                                    <div class="close_gcc"><i class="fal fa-times-circle"></i></div>
-                                                    <ul class="no-list-style">
-                                                        <li><span><i class="fal fa-phone"></i> Call : </span><a href="#">+38099231212</a></li>
-                                                        <li><span><i class="fal fa-envelope"></i> Write : </span><a href="#">yourmail@domain.com</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <!-- listing-item end -->                              
-                            </div>
-                                            
                         </div>
                     </div>
                 </section>
-                <div class="limit-box fl-wrap"></div>
-            </div>
-
-            <!--section  -->
-            <!-- <section class="parallax-section" data-scrollax-parent="true" id="sec4"> -->
-            <!-- <div class="bg par-elem "  data-bg="images/bg3.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
-                    <div class="overlay op7"></div> -->
-            <!--container-->
-            <!-- <div class="container">
-                        <div class="section-title center-align big-title">
-                            <h2><span>Knows Real happiness that "Can Only Be Founded By Helping Others"</span></h2>
-                            <span class="section-separator"></span>
-                        </div>
-                    </div> -->
-            </section>
-            <!--section end-->
-            <!--section  -->
-            <section class="gray-bg absolute-wrap_section">
-                <div class="container">
-                    <div class="absolute-wrap fl-wrap">
-                        <!-- features-box-container -->
-                        <div class="features-box-container fl-wrap">
-                            <div class="row">
-                                <div class="section-title center-align big-title">
-                                    <h2><span>Knows Real happiness that "Can Only Be Founded By Helping Others"</span>
-                                    </h2>
-                                    <span class="section-separator"></span>
+                <!--section end-->  
+                <!--section  -->  
+                <section class="gray-bg absolute-wrap_section">
+                    <div class="container">
+                        <div class="absolute-wrap fl-wrap">
+                            <!-- features-box-container --> 
+                            <div class="features-box-container fl-wrap">
+                                <div class="row">
+                                   <p>
+                                    Strengthen Rotary's image by delivering a clear and compelling message that conveys what we do and how people can engage with us. By speaking, writing, and designing in a unified voice and look, we ensure that our communications are unmistakably Rotary.
+                                   </p>  
                                 </div>
-                                <p>
-                                    A Rotarian is a person who... <br>
-
-                                    Digs wells from which he/she will never drink<br>
-
-                                    Vaccinates Children he/she will never meet<br>
-
-                                    Restores eyesight for those he/she will never see;<br>
-
-                                    Co-
-
-                                    Builds housing he/she will never live in;<br>
-
-                                    Educates Children he/she will never know,<br>
-
-                                    Plants trees he/she will never sit under,<br>
-
-                                    Makes crawlers into walkers halfway around the world;
-                                </p>
                             </div>
+                            <!-- features-box-container end  -->                             
                         </div>
-                        <!-- features-box-container end  -->
+                        <div class="section-separator"></div>
                     </div>
-                    <div class="section-separator"></div>
-                </div>
-            </section>
-            <!--section end-->
-        
-            <!--content end-->
-        </div>
-        <!-- wrapper end-->
-        <!--footer -->
+                </section>
+                <!--section end--> 
+                <!--content end-->
+            </div>
+            <!-- wrapper end-->
+            <!--footer -->
         <footer class="main-footer fl-wrap">
             <!-- footer-header-->
             <div class="footer-header fl-wrap grad ient-dark">
@@ -834,7 +902,7 @@
             </div>
             <!--sub-footer end -->
         </footer>
-        <!--footer end --> 
+        <!--footer end -->
         <!--register form -->
         <div class="main-register-wrap modal">
             <div class="reg-overlay"></div>
@@ -906,7 +974,7 @@
                                                 <input name="name" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
-                                                <label>Spouse Name <span style="color: red;">*</span> </label>
+                                                <label>Spouse Name</label>
                                                 <input name="name" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
@@ -914,7 +982,7 @@
                                                 <input name="date" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
-                                                <label>Marrage Anniversary Date <span style="color: red;">*</span> </label>
+                                                <label>Marrage Anniversary Date</label>
                                                 <input name="date" type="text" onClick="this.select()" value="">
                                             </div>
                                             <div>
@@ -987,75 +1055,75 @@
             </div>
         </div>
         <!--register form end -->
-        <a class="to-top"><i class="fas fa-caret-up"></i></a>
-    </div>
-    <!-- Main end -->
-    <!--=============== scripts  ===============-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/scripts.js"></script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=places&callback=initAutocomplete">
-    </script>
-    <script src="js/map-plugins.js"></script>
-    <script src="js/map-listing.js"></script>
-    <script>
-        // read more js
-        $(document).ready(function () {
-
-            $('[data-toggle="collapse"]').click(function () {
-                $(this).toggleClass("active");
-                if ($(this).hasClass("active")) {
-                    $(this).text("Hide");
-                } else {
-                    $(this).text("Read More");
-                }
+            <a class="to-top"><i class="fas fa-caret-up"></i></a>
+        </div>
+        <!-- Main end -->
+        <!--=============== scripts  ===============-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/scripts.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=places&callback=initAutocomplete">
+        </script>
+        <script src="js/map-plugins.js"></script>
+        <script src="js/map-listing.js"></script>
+        <script>
+            // read more js
+            $(document).ready(function () {
+    
+                $('[data-toggle="collapse"]').click(function () {
+                    $(this).toggleClass("active");
+                    if ($(this).hasClass("active")) {
+                        $(this).text("Hide");
+                    } else {
+                        $(this).text("Read More");
+                    }
+                });
             });
-        });
-
-        let captcha;
-
-        function generate() {
-
-            // Clear old input
-            document.getElementById("submit").value = "";
-
-            // Access the element to store
-            // the generated captcha
-            captcha = document.getElementById("image");
-            let uniquechar = "";
-
-            const randomchar =
-                "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
-            // Generate captcha for length of
-            // 5 with random character
-            for (let i = 1; i < 5; i++) {
-                uniquechar += randomchar.charAt(
-                    Math.random() * randomchar.length)
+    
+            let captcha;
+    
+            function generate() {
+    
+                // Clear old input
+                document.getElementById("submit").value = "";
+    
+                // Access the element to store
+                // the generated captcha
+                captcha = document.getElementById("image");
+                let uniquechar = "";
+    
+                const randomchar =
+                    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    
+                // Generate captcha for length of
+                // 5 with random character
+                for (let i = 1; i < 5; i++) {
+                    uniquechar += randomchar.charAt(
+                        Math.random() * randomchar.length)
+                }
+    
+                // Store generated input
+                captcha.innerHTML = uniquechar;
             }
-
-            // Store generated input
-            captcha.innerHTML = uniquechar;
-        }
-
-        function printmsg() {
-            const usr_input = document
-                .getElementById("submit").value;
-
-            // Check whether the input is equal
-            // to generated captcha or not
-            if (usr_input == captcha.innerHTML) {
-                let s = document.getElementById("key")
-                    .innerHTML = "Matched";
-                generate();
-            } else {
-                let s = document.getElementById("key")
-                    .innerHTML = "not Matched";
-                generate();
+    
+            function printmsg() {
+                const usr_input = document
+                    .getElementById("submit").value;
+    
+                // Check whether the input is equal
+                // to generated captcha or not
+                if (usr_input == captcha.innerHTML) {
+                    let s = document.getElementById("key")
+                        .innerHTML = "Matched";
+                    generate();
+                } else {
+                    let s = document.getElementById("key")
+                        .innerHTML = "not Matched";
+                    generate();
+                }
             }
-        }
-    </script>
+        </script>
 </body>
 
 </html>
