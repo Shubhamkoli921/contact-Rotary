@@ -112,7 +112,15 @@
 }
 .business-map{
   display: flex;
+  flex-direction: column;
 }
+.business-map iframe{
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .checked {
   color: orange;
 }
@@ -123,7 +131,8 @@
 }
 .outer-business-review{
   /* background-color: #bbb; */
-  border:#bbb 1px solid;
+  /* border:#bbb 1px solid; */
+  border-radius: 10px;
 
   padding: 10px;
 }
@@ -161,9 +170,31 @@
   justify-content: center;
   margin-top: 20px;
 }
+
 .media-links-fa i{
   margin-top: 10px;
   font-size: 30px;
+  margin: 10px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* gap: 10px; */
+}
+.fa{
+  cursor: pointer;
+}
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.fa.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 @keyframes fade {
   from {opacity: .4}
@@ -190,5 +221,15 @@
   }
   section.parallax-section{
     height: 800px;
+  }
+  .business-map{
+    flex-direction: column;
+  }
+  .business-map iframe{
+    width: 220px;
+  }
+  .media-links-fa{
+    display: flex;
+    justify-content: center;
   }
 }
